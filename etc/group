@@ -2,7 +2,7 @@ root:x:0:
 daemon:x:1:
 bin:x:2:
 sys:x:3:
-adm:x:4:
+adm:x:4:syslog
 tty:x:5:
 disk:x:6:
 lp:x:7:
@@ -37,3 +37,11 @@ staff:x:50:
 games:x:60:
 users:x:100:
 nogroup:x:65534:
+systemd-timesync:x:101:
+systemd-journal:x:102:
+systemd-network:x:103:
+systemd-resolve:x:104:
+messagebus:x:105:
+ssh:x:106:
+netdev:x:107:
+syslog:x:108:

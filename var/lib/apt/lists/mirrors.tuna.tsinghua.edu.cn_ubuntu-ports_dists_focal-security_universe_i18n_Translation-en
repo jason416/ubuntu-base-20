@@ -1,0 +1,2154 @@
+Package: apt-transport-https
+Description-md5: 42fb3fe23b1b826709a68809c25a3897
+Description-en: transitional package for https support
+ This is a dummy transitional package - https support has been moved into
+ the apt package in 1.5. It can be safely removed.
+
+Package: balsa
+Description-md5: 8fd5765c122138010ca60ac02a294a55
+Description-en: e-mail client for GNOME
+ Balsa is a highly configurable and robust mail client for the GNOME desktop.
+ It supports both POP3 and IMAP servers as well as the mbox, maildir and mh
+ local mailbox formats. Balsa also supports SMTP and/or the use of a local MTA
+ such as Sendmail.
+ .
+ Some of Balsa's other features include:
+   * Allowing nested mailboxes
+   * Printing
+   * Spell Checking
+   * Multi-threaded mail retrieval
+   * MIME support (view images inline, save parts)
+   * GPE Palmtop, LDAP, LDIF and vCard address book support
+   * Multiple character sets for composing and reading messages
+   * File attachments on outgoing messages
+   * GPG/OpenPGP mail signing and encryption
+ .
+ Support for Kerberos and SSL has been enabled in this package.
+
+Package: bind9utils
+Description-md5: 8681b0dabeb2a3fde42fdbb1f21451d2
+Description-en: Transitional package for bind9-utils
+ This is a transitional package. It can safely be removed.
+
+Package: clamav-milter
+Description-md5: e47a1194215b5fbde13fb9217c44d83f
+Description-en: anti-virus utility for Unix - sendmail integration
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of
+ this software is the integration with mail servers (attachment
+ scanning). The package provides a flexible and scalable
+ multi-threaded daemon in the clamav-daemon package, a command-line
+ scanner in the clamav package, and a tool for automatic updating via
+ the Internet in the clamav-freshclam package. The programs are based
+ on libclamav, which can be used by other software.
+ .
+ This package contains the ClamAV milter for use with sendmail. It can
+ be configured to be run either standalone, or using clamav-daemon.
+
+Package: clamav-testfiles
+Description-md5: 29437a0b8c82cc8179b64405688f062e
+Description-en: anti-virus utility for Unix - test files
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of
+ this software is the integration with mail servers (attachment
+ scanning). The package provides a flexible and scalable
+ multi-threaded daemon in the clamav-daemon package, a command-line
+ scanner in the clamav package, and a tool for automatic updating via
+ the Internet in the clamav-freshclam package. The programs are based
+ on libclamav, which can be used by other software.
+ .
+ This package contains files 'infected' with a test signature. The test
+ signature (ClamAV-Test-Signature) should be detectable by all
+ anti-virus programs.
+
+Package: ctdb
+Description-md5: 83dff66615250b53a0cd3df6fb3b9ea7
+Description-en: clustered database to store temporary data
+ CTDB is a cluster implementation of the TDB database used by Samba and other
+ projects to store temporary data. If an application is already using TDB for
+ temporary data it is very easy to convert that application to be cluster aware
+ and use CTDB instead.
+ .
+ CTDB provides the same types of functions as TDB but in a clustered fashion,
+ providing a TDB-style database that spans multiple physical hosts in a cluster.
+ .
+ Features include:
+  * CTDB provides a TDB that has consistent data and consistent locking across
+    all nodes in a cluster.
+  * CTDB is very fast.
+  * In case of node failures, CTDB will automatically recover and repair all TDB
+    databases that it manages.
+  * CTDB is the core component that provides pCIFS ("parallel CIFS") with
+    Samba3/4.
+  * CTDB provides HA features such as node monitoring, node failover, and IP
+    takeover.
+  * CTDB provides a reliable messaging transport to allow applications linked
+    with CTDB to communicate to other instances of the application running on
+    different nodes in the cluster.
+  * CTDB has pluggable transport backends. Currently implemented backends are
+    TCP and Infiniband.
+  * CTDB supports a system of application specific management scripts, allowing
+    applications that depend on network or filesystem resources to be managed in
+    a highly available manner on a cluster.
+
+Package: dbus-tests
+Description-md5: 21d8962af3ce2eb690155b3d6c1a7f1b
+Description-en: simple interprocess messaging system (test infrastructure)
+ D-Bus is a message bus, used for sending messages between applications.
+ Conceptually, it fits somewhere in between raw sockets and CORBA in
+ terms of complexity.
+ .
+ This package provides automated and manual tests for D-Bus, and the
+ dbus-test-tool utility. It also provides copies of the D-Bus libraries and
+ executables compiled with extra debug information and logging.
+ .
+ See the dbus package description for more information about D-Bus in general.
+
+Package: dnsutils
+Description-md5: 021458b353ece6dd7b5cbef232419073
+Description-en: Transitional package for bind9-dnsutils
+ This is a transitional package. It can safely be removed.
+
+Package: dovecot-auth-lua
+Description-md5: 800c615fe5c4774792fcc59581863459
+Description-en: secure POP3/IMAP server - Lua authentication plugin
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package contains an authentication plugin allowing password and user
+ databases to be implemented in Lua.
+
+Package: dovecot-gssapi
+Description-md5: 9f4b2fcb5aebf7d757c3b91ec594fd37
+Description-en: secure POP3/IMAP server - GSSAPI support
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package provides GSSAPI authentication support for Dovecot.
+
+Package: dovecot-ldap
+Description-md5: cf9a560992c979e66145b609891e191d
+Description-en: secure POP3/IMAP server - LDAP support
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package provides LDAP support for Dovecot.
+
+Package: dovecot-lmtpd
+Description-md5: 1f512867746b7f058518f80e369c13d8
+Description-en: secure POP3/IMAP server - LMTP server
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package contains the Dovecot LMTP server.
+
+Package: dovecot-lucene
+Description-md5: 9e0fe0de118fadcbc542bda8dec379fe
+Description-en: secure POP3/IMAP server - Lucene support
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package provides Lucene full text search support for Dovecot.
+
+Package: dovecot-managesieved
+Description-md5: 9c22507acd609a92f0a6377258e2d338
+Description-en: secure POP3/IMAP server - ManageSieve server
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package contains the Dovecot ManageSieve server.
+
+Package: dovecot-mysql
+Description-md5: a603c5fc8628574f9890bfe63a43615d
+Description-en: secure POP3/IMAP server - MySQL support
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package provides MySQL support for Dovecot.
+
+Package: dovecot-pgsql
+Description-md5: e8aa6d8fe1c38481139bebe08f38c035
+Description-en: secure POP3/IMAP server - PostgreSQL support
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package provides PostgreSQL support for Dovecot.
+
+Package: dovecot-sieve
+Description-md5: 70234206edc75d829fdb3617a653da24
+Description-en: secure POP3/IMAP server - Sieve filters support
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package provides Sieve filters support for Dovecot.
+
+Package: dovecot-solr
+Description-md5: 26b94d4d2bce4be7a79f1a90218de82c
+Description-en: secure POP3/IMAP server - Solr support
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package provides Solr full text search support for Dovecot.
+
+Package: dovecot-sqlite
+Description-md5: 84d239fb9502af48d31d27798fb5a82b
+Description-en: secure POP3/IMAP server - SQLite support
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package provides SQLite support for Dovecot.
+
+Package: dovecot-submissiond
+Description-md5: b7dc853a1d902701365098db008dcd75
+Description-en: secure POP3/IMAP server - mail submission agent
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package contains the Dovecot Mail Submission Agent which implements a
+ basic SMTP submission service with BURL support.
+
+Package: dpdk-dev
+Description-md5: 2bac84865b00597889092d76d90f8114
+Description-en: Data Plane Development Kit (dev tools)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains tools useful to a developer and for dpdk self tests.
+
+Package: dpdk-doc
+Description-md5: 8460e56e632f9ddf05320944330e906b
+Description-en: Data Plane Development Kit (documentation)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the complete set of documentation and guides.
+
+Package: dpdk-igb-uio-dkms
+Description-md5: 9dabcdfb5c92f78c3bf352576e670063
+Description-en: Data Plane Development Kit (igb uio dkms)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the source code for the igb_uio kernel module.
+
+Package: eximon4
+Description-md5: 9d049018af5088cbceaa2af23692d02a
+Description-en: monitor application for the Exim MTA (v4) (X11 interface)
+ Eximon is a helper program for the Exim MTA (v4). It allows
+ administrators to view the mail queue and logs, and perform a variety
+ of actions on queued messages, such as freezing, bouncing and thawing
+ messages.
+
+Package: firefox-geckodriver
+Description-md5: f720f625e9a0770cb777ddb0c62c22e3
+Description-en: Safe and easy web browser from Mozilla - geckodriver
+ Firefox delivers safe, easy web browsing. A familiar user interface,
+ enhanced security features including protection from online identity theft,
+ and integrated search let you get the most out of the web.
+ .
+ This package contains geckodriver, a proxy for using W3C WebDriver-compatible
+ clients (such as selenium) to interact with Gecko-based browsers. See
+ https://firefox-source-docs.mozilla.org/testing/geckodriver/ for details.
+
+Package: firefox-mozsymbols
+Description-md5: 1398643ad4fb0f820933502f6bba9816
+Description-en: Safe and easy web browser from Mozilla - Breakpad symbols
+ Firefox delivers safe, easy web browsing. A familiar user interface,
+ enhanced security features including protection from online identity theft,
+ and integrated search let you get the most out of the web.
+ .
+ This package contains the Firefox symbols in a format expected by Mozilla's
+ Breakpad. Eventually this package should go away and the symbol upload be
+ implemented in soyuz (or other builders that build this package)
+
+Package: freerdp2-shadow-x11
+Description-md5: 5e8fef249679625146e6e6f483c3b488
+Description-en: FreeRDP x11 shadowing server
+ FreeRDP is a libre client/server implementation of the Remote
+ Desktop Protocol (RDP).
+ .
+ This package contains a "shadowing" server that can be used to
+ share an already started X11 DISPLAY.
+
+Package: freerdp2-wayland
+Description-md5: a5e739176253fe4f397467dba68645a0
+Description-en: RDP client for Windows Terminal Services (wayland client)
+ FreeRDP is a libre client/server implementation of the Remote
+ Desktop Protocol (RDP).
+ .
+ Currently, the FreeRDP clients supports the following Windows Versions:
+ .
+  * Windows NT Server
+  * Windows 2000 Terminal Server
+  * Windows XP
+  * Windows 2003 Server
+  * Windows Vista
+  * Windows 2008/2008r2/2011SBS Server
+  * Windows 7
+  * Windows 2012/2012r2 Server
+  * Windows 8
+  * Windows 10
+ .
+ This package contains the wayland based client.
+
+Package: freerdp2-x11
+Description-md5: c4929c6614bb3d2257a1f67d82098bd3
+Description-en: RDP client for Windows Terminal Services (X11 client)
+ FreeRDP is a libre client/server implementation of the Remote
+ Desktop Protocol (RDP).
+ .
+ Currently, the FreeRDP client supports the following Windows Versions:
+ .
+  * Windows NT Server
+  * Windows 2000 Terminal Server
+  * Windows XP
+  * Windows 2003 Server
+  * Windows Vista
+  * Windows 2008/2008r2/2011SBS Server
+  * Windows 7
+  * Windows 2012/2012r2 Server
+  * Windows 8
+  * Windows 10
+ .
+ This package contains the X11 based client.
+
+Package: fwupd-amd64-signed-template
+Description-md5: 19d35f78650aadabde42d595495fc832
+Description-en: Template for signed fwupd package
+ This package is used to control code signing by the Debian signing
+ service.
+
+Package: fwupd-tests
+Description-md5: 1abe6bd33c8afb4b3f7315f379d19a7f
+Description-en: Test suite for firmware update daemon
+ fwupd is a daemon to allow session software to update device firmware.
+ You can either use a GUI software manager like GNOME Software to view and
+ apply updates, the command-line tool or the system D-Bus interface directly.
+ Firmware updates are supported for a variety of technologies.
+ See <https://github.com/fwupd/fwupd> for details
+ .
+ This package provides a set of installed tests that can be run to validate
+ the daemon in a continuous integration system.
+
+Package: glib-networking-tests
+Description-md5: 29c11a56653d19186378a0027c69788a
+Description-en: network-related giomodules for GLib - installed tests
+ This package contains test programs, designed to be run as part of a
+ regression testsuite.
+
+Package: gnome-boxes
+Description-md5: 21904b7dceabc5964a6cd50a41645603
+Description-en: Simple GNOME app to access remote or virtual systems
+ GNOME Boxes is a desktop client to view or use local virtual machines,
+ remote physical machines, or remote virtual machines. Boxes is
+ intentionally simple and easy to use.
+ .
+ Hardware virtualization is required to use local virtual machines.
+
+Package: gnutls-bin
+Description-md5: 4d4cd373c5be12f8c5459215d3ef89f7
+Description-en: GNU TLS library - commandline utilities
+ GnuTLS is a portable library which implements the Transport Layer
+ Security (TLS 1.0, 1.1, 1.2, 1.3) and Datagram
+ Transport Layer Security (DTLS 1.0, 1.2) protocols.
+ .
+ GnuTLS features support for:
+  - certificate path validation, as well as DANE and trust on first use.
+  - the Online Certificate Status Protocol (OCSP).
+  - public key methods, including RSA and Elliptic curves, as well as password
+    and key authentication methods such as SRP and PSK protocols.
+  - all the strong encryption algorithms, including AES and Camellia.
+  - CPU-assisted cryptography with VIA padlock and AES-NI instruction sets.
+  - HSMs and cryptographic tokens, via PKCS #11.
+ .
+ This package contains a commandline interface to the GNU TLS library, which
+ can be used to set up secure connections from e.g. shell scripts, debugging
+ connection issues or managing certificates.
+ .
+ Useful utilities include:
+  - TLS termination: gnutls-cli, gnutls-serv
+  - key and certificate management: certtool, ocsptool, p11tool
+  - credential management: srptool, psktool
+
+Package: guile-gnutls
+Description-md5: 1f793cfdac00ad023948c6e99a10a0ef
+Description-en: GNU TLS library - GNU Guile bindings
+ GnuTLS is a portable library which implements the Transport Layer
+ Security (TLS 1.0, 1.1, 1.2, 1.3) and Datagram
+ Transport Layer Security (DTLS 1.0, 1.2) protocols.
+ .
+ GnuTLS features support for:
+  - certificate path validation, as well as DANE and trust on first use.
+  - the Online Certificate Status Protocol (OCSP).
+  - public key methods, including RSA and Elliptic curves, as well as password
+    and key authentication methods such as SRP and PSK protocols.
+  - all the strong encryption algorithms, including AES and Camellia.
+  - CPU-assisted cryptography with VIA padlock and AES-NI instruction sets.
+  - HSMs and cryptographic tokens, via PKCS #11.
+ .
+ This package contains the GNU Guile modules.
+
+Package: idle-python3.8
+Description-md5: 58009ba2bb385e2cf47cec312a6405fb
+Description-en: IDE for Python (v3.8) using Tkinter
+ IDLE is an Integrated Development Environment for Python (v3.8).
+ IDLE is written using Tkinter and therefore quite platform-independent.
+
+Package: ldb-tools
+Description-md5: 27e8c15a8859e3368f9f6a0853f05226
+Description-en: LDAP-like embedded database - tools
+ ldb is a LDAP-like embedded database built on top of TDB.
+ .
+ What ldb does is provide a fast database with an LDAP-like API designed
+ to be used within an application. In some ways it can be seen as a
+ intermediate solution between key-value pair databases and a real LDAP
+ database.
+ .
+ This package contains bundled test and utility binaries
+
+Package: lemon
+Description-md5: 867ddd6dcabf45fb31853e332c544f1f
+Description-en: LALR(1) Parser Generator for C or C++
+ Lemon is an LALR(1) parser generator for C or C++. It does the same
+ job as bison and yacc. But lemon is not another bison or yacc
+ clone. It uses a different grammar syntax which is designed to reduce
+ the number of coding errors. Lemon also uses a more sophisticated
+ parsing engine that is faster than yacc and bison and which is both
+ reentrant and thread-safe. Furthermore, Lemon implements features
+ that can be used to eliminate resource leaks, making is suitable for
+ use in long-running programs such as graphical user interfaces or
+ embedded controllers.
+
+Package: libdpdk-dev
+Description-md5: 655a14a388b41ca32e9c10080c63a0ee
+Description-en: Data Plane Development Kit (basic development files)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the basic headers and library files required to
+ build external applications which will also require at least SSE3 support
+ when running.
+ .
+ libdpdk.pc: note that CFLAGS might contain an -march flag higher than typical
+ baseline.
+ This is required for a number of static inline functions in the public headers.
+
+Package: libjavascriptcoregtk-4.0-bin
+Description-md5: d63d3c5b674d87705002872786bc6cce
+Description-en: JavaScript engine library from WebKitGTK - command-line interpreter
+ JavaScriptCore is the JavaScript engine used in WebKit. It consists
+ of the following building blocks: lexer, parser, start-up interpreter
+ (LLInt), baseline JIT, a low-latency optimizing JIT (DFG), and a
+ high-throughput optimizing JIT (FTL).
+ .
+ This build comes from the GTK port of WebKit (API version 4.0).
+ .
+ This package provides jsc, a command-line JavaScript interpreter.
+
+Package: libjpeg-turbo-progs
+Description-md5: dfce6e50364eecf2b131ddecddf04830
+Description-en: Programs for manipulating JPEG files
+ This package contains programs for manipulating JPEG files:
+  cjpeg/djpeg: convert to/from the JPEG file format
+  rdjpgcom/wrjpgcom: read/write comments in JPEG files
+  jpegtran: lossless transformations of JPEG files
+  tjbench: a simple JPEG benchmarking tool
+
+Package: libjpeg-turbo-test
+Description-md5: 1ebb5427395c3fb2a304b46232dff93e
+Description-en: Program for benchmarking and testing libjpeg-turbo
+ This package contains tjunittest and tjbench.  tjunittest tests the basic
+ functionality of the library and data files for performing those tests.
+ tjbench runs some benchmarks.
+
+Package: libnss3-tools
+Description-md5: 33cc2c7795e9ef6579f85eabb1dbee18
+Description-en: Network Security Service tools
+ This is a set of tools on top of the Network Security Service libraries.
+ This package includes:
+  * certutil: manages certificate and key databases (cert7.db and key3.db)
+  * modutil: manages the database of PKCS11 modules (secmod.db)
+  * pk12util: imports/exports keys and certificates between the cert/key
+    databases and files in PKCS12 format.
+  * shlibsign: creates .chk files for use in FIPS mode.
+  * signtool: creates digitally-signed jar archives containing files and/or
+    code.
+  * ssltap: proxy requests for an SSL server and display the contents of
+    the messages exchanged between the client and server.
+
+Package: libopenexr-dev
+Description-md5: 8e2ac9ae29f1c1eb2cc160c36be0dd18
+Description-en: development files for the OpenEXR image library
+ OpenEXR is a high dynamic-range (HDR) image file format developed by
+ Industrial Light & Magic for use in computer imaging applications.
+ .
+ OpenEXR's features include:
+    * Higher dynamic range and colour precision than existing 8- and
+      10-bit image file formats.
+    * Support for the "half" 16-bit floating-point pixel format.
+    * Multiple lossless image compression algorithms. Some of the
+      included codecs can achieve 2:1 lossless compression ratios on
+      images with film grain.
+    * Extensibility. New compression codecs and image types can easily
+      be added by extending the C++ classes included in the OpenEXR
+      software distribution. New image attributes (strings, vectors,
+      integers, etc.) can be added to OpenEXR image headers without
+      affecting backward compatibility with existing OpenEXR
+      applications.
+ .
+ This package contains the header files required if you wish to
+ compile/develop applications that use OpenEXR libraries.
+
+Package: libopenexr24
+Description-md5: fc6d21580bbce28c399667b4a248a460
+Description-en: runtime files for the OpenEXR image library
+ OpenEXR is a high dynamic-range (HDR) image file format developed by
+ Industrial Light & Magic for use in computer imaging applications.
+ .
+ OpenEXR's features include:
+    * Higher dynamic range and colour precision than existing 8- and
+      10-bit image file formats.
+    * Support for the "half" 16-bit floating-point pixel format.
+    * Multiple lossless image compression algorithms. Some of the
+      included codecs can achieve 2:1 lossless compression ratios on
+      images with film grain.
+    * Extensibility. New compression codecs and image types can easily
+      be added by extending the C++ classes included in the OpenEXR
+      software distribution. New image attributes (strings, vectors,
+      integers, etc.) can be added to OpenEXR image headers without
+      affecting backward compatibility with existing OpenEXR
+      applications.
+ .
+ This package contains the following shared library:
+    * IlmImf - a library that reads and writes OpenEXR images.
+
+Package: libphp7.4-embed
+Description-md5: c4113b52b74b776814070213fb2828a8
+Description-en: HTML-embedded scripting language (Embedded SAPI library)
+ This package provides the library /usr/lib/libphp7.4.so which can
+ be used by application developers to embed PHP scripting functionality.
+ .
+ The following extensions are built in: Core date filter hash libxml openssl
+ pcntl pcre Reflection session sodium SPL standard zlib.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+ .
+ WARNING: The embed SAPI is experimental and there's no guarantee that
+ the API/ABI will be kept compatible even between minor releases.  You
+ have been warned.
+
+Package: libpython3.8-testsuite
+Description-md5: e066f95a68978dfc6eb1f76eb3c824e9
+Description-en: Testsuite for the Python standard library (v3.8)
+ The complete testsuite for the Python standard library.  Note that
+ a subset is found in the libpython3.8-stdlib package, which should
+ be enough for other packages to use (please do not build-depend
+ on this package, but file a bug report to include additional
+ testsuite files in the libpython3.8-stdlib package).
+
+Package: librte-acl20.0
+Description-md5: 9e3dea0b3e48a93abc4b23404a46bd63
+Description-en: Data Plane Development Kit (librte-acl runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_acl.
+
+Package: librte-bbdev0.200
+Description-md5: 5ea5255c40e2e4d5876243c814f9f353
+Description-en: Data Plane Development Kit (librte-bbdev runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_bbdev.
+ FYI: This library still is highly experimental.
+
+Package: librte-bitratestats20.0
+Description-md5: f1172933b506cf2547ec3421b79f0496
+Description-en: Data Plane Development Kit (librte_bitratestats runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_bitratestats.
+
+Package: librte-bpf0.200
+Description-md5: 8076b8489e45cc137c36be9a37bbecf4
+Description-en: Data Plane Development Kit (librte-bpf runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_bpf.
+ .
+ The DPDK provides an BPF library that gives the ability to load and
+ execute Enhanced Berkeley Packet Filter (eBPF) bytecode within user-space
+ dpdk application.
+ FYI: This library still is highly experimental.
+
+Package: librte-bus-dpaa20.0
+Description-md5: 055e22a2b51396bfc6cbdaf7f0becb00
+Description-en: Data Plane Development Kit (librte_bus_dpaa runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_bus_dpaa.
+
+Package: librte-bus-fslmc20.0
+Description-md5: 17fad8cb6625a431792c054d1b835907
+Description-en: Data Plane Development Kit (librte_bus_fslmc runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_bus_fslmc.
+
+Package: librte-bus-ifpga20.0
+Description-md5: c9456b80421bbc8f7dd3f64f8b52dcfe
+Description-en: Data Plane Development Kit (librte_bus_ifpga runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_bus_ifpga.
+
+Package: librte-cfgfile20.0
+Description-md5: bae1bd6562131d6285c9d5225074bbb4
+Description-en: Data Plane Development Kit (librte-cfgfile runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_cfgfile.
+
+Package: librte-cmdline20.0
+Description-md5: c2be8ade147bad1d5ffed05742fc579a
+Description-en: Data Plane Development Kit (librte-cmdline runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_cmdline.
+
+Package: librte-common-cpt20.0
+Description-md5: b961e21e11d9a689575911ac0f114392
+Description-en: Data Plane Development Kit (librte_common_cpt runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_common_cpt.
+
+Package: librte-common-dpaax20.0
+Description-md5: 46787fd976304fbeae30e4afa9609609
+Description-en: Data Plane Development Kit (librte_common_dpaax runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_common_dpaax.
+
+Package: librte-common-octeontx2-20.0
+Description-md5: 1a2adcefd65730e079045cd26e892cd7
+Description-en: Data Plane Development Kit (librte-common-octeontx2 runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte-common-octeontx2.
+
+Package: librte-common-octeontx20.0
+Description-md5: d1e87d06acef3e0d65beec68e904b451
+Description-en: Data Plane Development Kit (librte_mempool_octeontx common library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_common_octeontx.
+
+Package: librte-compressdev0.200
+Description-md5: a37d8ba37d5b3f95043ac5ee40268d1d
+Description-en: Data Plane Development Kit (librte-compressdev runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_compressdev.
+ .
+ Provides poll mode compression & decompression driver support.
+ FYI: This library still is highly experimental.
+
+Package: librte-distributor20.0
+Description-md5: c29dafade78a7a8a65808867aea57a16
+Description-en: Data Plane Development Kit (librte-distributor runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_distributor.
+
+Package: librte-efd20.0
+Description-md5: 1877a241cf3628b909c9916d106effb4
+Description-en: Data Plane Development Kit (librte_efd runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_efd.
+
+Package: librte-eventdev20.0
+Description-md5: 12a473616c984b55df4d6bc30cd95544
+Description-en: Data Plane Development Kit (librte_eventdev runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_eventdev.
+
+Package: librte-fib0.200
+Description-md5: 3268d24a74781c54a02bdd4ae546858a
+Description-en: Data Plane Development Kit (libfib runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for libfib.
+ FIB (Forwarding information base) implementation for IPv4 Longest Prefix Match
+ FYI: This library still is highly experimental.
+
+Package: librte-flow-classify0.200
+Description-md5: ae46abf40f5c9e2e12d2097b85bcba04
+Description-en: Data Plane Development Kit (librte-flow-classify runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_flow_classify.
+ FYI: This library still is highly experimental.
+
+Package: librte-gro20.0
+Description-md5: 4992f8e3236e156e2506d5223c2de3d1
+Description-en: Data Plane Development Kit (librte-gro runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_gro.
+
+Package: librte-ipsec0.200
+Description-md5: ad2f198539b57071ebc406c14cff932a
+Description-en: Data Plane Development Kit (librte-ipsec runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte-ipsec.
+ FYI: This library still is highly experimental.
+
+Package: librte-jobstats20.0
+Description-md5: 3b3b089b2b36c647eee868bee6fcc012
+Description-en: Data Plane Development Kit (librte-jobstats runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_jobstats.
+
+Package: librte-latencystats20.0
+Description-md5: c88ce9ef6f429f0bf42f68c53809624e
+Description-en: Data Plane Development Kit (librte_latencystats runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_latencystats.
+
+Package: librte-lpm20.0
+Description-md5: 1093758bea991825f8c0fb8f0366e9a6
+Description-en: Data Plane Development Kit (librte-lpm runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_lpm.
+
+Package: librte-member20.0
+Description-md5: 58684628999a23c3dbce9d6091d9cfee
+Description-en: Data Plane Development Kit (librte-member runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_member.
+
+Package: librte-mempool-bucket20.0
+Description-md5: 29d17b3a3c3bf4221f19ad5f2d596a71
+Description-en: Data Plane Development Kit (librte-mempool-bucket runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_mempool_bucket.
+
+Package: librte-mempool-dpaa2-20.0
+Description-md5: 6cd6ecdefb99ccdc0ee6fbd9d660d801
+Description-en: Data Plane Development Kit (librte_mempool_dpaa2 runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_mempool_dpaa2.
+
+Package: librte-mempool-dpaa20.0
+Description-md5: ecf8bfdb1391f169c2972b20dfbe5432
+Description-en: Data Plane Development Kit (librte_mempool_dpaa runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_mempool_dpaa.
+
+Package: librte-mempool-octeontx2-20.0
+Description-md5: d7004b834ab87bcde68b21d650266886
+Description-en: Data Plane Development Kit (librte-mempool-octeontx2 runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte-mempool-octeontx2.
+
+Package: librte-mempool-octeontx20.0
+Description-md5: 0a4ef7c339915ae8187a9dfb8f19810a
+Description-en: Data Plane Development Kit (librte_mempool_octeontx runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_mempool_octeontx.
+
+Package: librte-mempool-stack20.0
+Description-md5: 34bc997546fa7f2f59765062cb162999
+Description-en: Data Plane Development Kit (librte_mempool_stack runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_mempool_stack.
+
+Package: librte-metrics20.0
+Description-md5: 5c6519a0f6de9828c834b19ea3eb8c2e
+Description-en: Data Plane Development Kit (librte_metrics runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_metrics.
+
+Package: librte-pdump20.0
+Description-md5: 1e4229989f5a4ea0d05e0c10a430f724
+Description-en: Data Plane Development Kit (librte_pdump runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pdump.
+
+Package: librte-pipeline20.0
+Description-md5: 1b6c2316554e3b8356abaac636cb3086
+Description-en: Data Plane Development Kit (librte-pipeline runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pipeline.
+
+Package: librte-pmd-aesni-gcm20.0
+Description-md5: 7ada26e613c0eb027d3b6502df260c5c
+Description-en: Data Plane Development Kit (librte_pmd_aesni_gcm runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_aesni_gcm.
+
+Package: librte-pmd-aesni-mb20.0
+Description-md5: f8acdf19760f10331422d363861bcb68
+Description-en: Data Plane Development Kit (librte_pmd_aesni_mb runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_aesni_mb.
+
+Package: librte-pmd-ark20.0
+Description-md5: 8aa28d8ec68087dd3df3d426a01e58e7
+Description-en: Data Plane Development Kit (librte_pmd_ark runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_ark.
+
+Package: librte-pmd-atlantic20.0
+Description-md5: 24f16bb0b6e30312c68bd2826c9154e2
+Description-en: Data Plane Development Kit (librte-pmd-atlantic runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte-pmd-atlantic.
+
+Package: librte-pmd-avp20.0
+Description-md5: e48ef72916dfa78d5d07e085811b3dd6
+Description-en: Data Plane Development Kit (librte_pmd_avp runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_avp.
+
+Package: librte-pmd-axgbe20.0
+Description-md5: d4a3c46f052b362ebdd4486f7e74fb2f
+Description-en: Data Plane Development Kit (librte-pmd-axgbe runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte-pmd-axgbe.
+
+Package: librte-pmd-bbdev-fpga-lte-fec20.0
+Description-md5: 7d5bc5573de9f53c6e1e16e8af84237b
+Description-en: Data Plane Development Kit (librte-pmd-bbdev-fpga-lte-fec runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte-pmd-bbdev-fpga-lte-fec.
+
+Package: librte-pmd-bbdev-null20.0
+Description-md5: 30a0ab8880698d256e23bc90de35031c
+Description-en: Data Plane Development Kit (librte-pmd-bbdev-null runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte-pmd-bbdev-null.
+
+Package: librte-pmd-bbdev-turbo-sw20.0
+Description-md5: 9ae0cf057f785abf974b2dae10573d24
+Description-en: Data Plane Development Kit (librte-pmd-bbdev-turbo-sw runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte-pmd-bbdev-turbo-sw.
+
+Package: librte-pmd-bnx2x20.0
+Description-md5: 3b5778c33f2ccc38cc817d36fa286031
+Description-en: Data Plane Development Kit (librte-pmd-bnx2x runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_bnx2x.
+
+Package: librte-pmd-bnxt20.0
+Description-md5: c1f6f4a58472b5d4289ae2575cf7392d
+Description-en: Data Plane Development Kit (librte-pmd-bnxt runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_bnxt.
+
+Package: librte-pmd-caam-jr20.0
+Description-md5: 6f13bdebfb782c1b9ba5f3f89a8561f9
+Description-en: Data Plane Development Kit (librte-pmd-caam-jr runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_caam_jr.
+
+Package: librte-pmd-ccp20.0
+Description-md5: bdcee56edeb9e9b9cd8952cc6bd4e035
+Description-en: Data Plane Development Kit (librte-pmd-ccp runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_ccp.
+
+Package: librte-pmd-crypto-scheduler20.0
+Description-md5: 4c57442511afb026ca4ac91e30c77d79
+Description-en: Data Plane Development Kit (librte_pmd_crypto_scheduler runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_crypto_scheduler.
+
+Package: librte-pmd-cxgbe20.0
+Description-md5: 06a2a48441ed18fb275a6e5f488aa7fb
+Description-en: Data Plane Development Kit (librte-pmd-cxgbe runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_cxgbe.
+
+Package: librte-pmd-dpaa-event20.0
+Description-md5: c20b7f61a551d43831370ebf6123fc6e
+Description-en: Data Plane Development Kit (librte-pmd-dpaa-event runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_dpaa_event.
+
+Package: librte-pmd-dpaa-sec20.0
+Description-md5: da16bbc963b319ce74212f7c7d381822
+Description-en: Data Plane Development Kit (librte-pmd-dpaa-sec runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_dpaa_sec.
+
+Package: librte-pmd-dpaa2-20.0
+Description-md5: 134652e2973d3c6ca163241ed14f804e
+Description-en: Data Plane Development Kit (librte-pmd-dpaa2 runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_dpaa2.
+
+Package: librte-pmd-dpaa2-event20.0
+Description-md5: d205b662ec4687030cefac41a529f906
+Description-en: Data Plane Development Kit (librte-pmd-dpaa2-event runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_dpaa2_event.
+
+Package: librte-pmd-dpaa2-sec20.0
+Description-md5: a586ff7b11ec78f78768092d3df423d8
+Description-en: Data Plane Development Kit (librte-pmd-dpaa2-sec runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_dpaa2_sec.
+
+Package: librte-pmd-dpaa20.0
+Description-md5: 11bcb0560a9831894aeb8e8ab4884b17
+Description-en: Data Plane Development Kit (librte-pmd-dpaa runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_dpaa.
+
+Package: librte-pmd-dsw-event20.0
+Description-md5: 89aa45877418e561b18bd11e4fe4625f
+Description-en: Data Plane Development Kit (librte-pmd-dsw-event runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_dsw_event.
+
+Package: librte-pmd-ena20.0
+Description-md5: c3bb9e89b926fb5377afa07fbbf3951b
+Description-en: Data Plane Development Kit (librte-pmd-ena runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_ena.
+
+Package: librte-pmd-enetc20.0
+Description-md5: da74e4a558a357ed080862f25c726938
+Description-en: Data Plane Development Kit (librte-pmd-enetc runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_enetc.
+
+Package: librte-pmd-enic20.0
+Description-md5: 753eb9bd7f24159b24072271b0520288
+Description-en: Data Plane Development Kit (librte-pmd-enic runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_enic.
+
+Package: librte-pmd-failsafe20.0
+Description-md5: 500c5004c965449b5867a725f127d272
+Description-en: Data Plane Development Kit (librte-pmd-failsafe runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_failsafe.
+
+Package: librte-pmd-hinic20.0
+Description-md5: cd0cd3064f0c7d3b5f6ce6256c933aa5
+Description-en: Data Plane Development Kit (librte-pmd-hinic runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte-pmd-hinic.
+
+Package: librte-pmd-hns3-20.0
+Description-md5: c3d24a99e25d7232e4457255660da593
+Description-en: Data Plane Development Kit (librte-pmd-hns3 runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_hns3 which is
+ The hns3 PMD (librte_pmd_hns3) provides poll mode driver support for the
+ inbuilt Hisilicon Network Subsystem(HNS) network engine found in the
+ Hisilicon Kunpeng 920 SoC
+
+Package: librte-pmd-iavf20.0
+Description-md5: 98390f2e51d07ab0d38a67afd62d79e5
+Description-en: Data Plane Development Kit (librte_pmd_iavf runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_iavf.
+
+Package: librte-pmd-ice20.0
+Description-md5: fffec2153b166d0990bdea511e98964c
+Description-en: Data Plane Development Kit (librte-pmd-ice runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte-pmd-ice.
+
+Package: librte-pmd-ifc20.0
+Description-md5: 257c9ef061fd8916ee1d630cb55fb310
+Description-en: Data Plane Development Kit (librte_pmd_ifc runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_ifc.
+
+Package: librte-pmd-isal20.0
+Description-md5: 651a0087b21a0abd6f250108d2d93f8e
+Description-en: Data Plane Development Kit (librte-pmd-isal runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_isal.
+ The ISA-L PMD (librte_pmd_isal_comp) provides poll mode compression &
+ decompression driver support for utilizing Intel ISA-L library, which
+ implements the deflate algorithm for both Deflate(compression) and
+ Inflate(decompression).
+
+Package: librte-pmd-liquidio20.0
+Description-md5: 12191ca95254dcb1c5806b98fdf8ab3d
+Description-en: Data Plane Development Kit (librte_pmd_liquidio runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_liquidio.
+
+Package: librte-pmd-memif20.0
+Description-md5: 3f64aa27e42ab240f733b61b29f91fa9
+Description-en: Data Plane Development Kit (librte-pmd-memif runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte-pmd-memif.
+
+Package: librte-pmd-nfp20.0
+Description-md5: 425e0fbc3b10fded7672da3b5955be0c
+Description-en: Data Plane Development Kit (librte_pmd_nfp runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_nfp.
+
+Package: librte-pmd-nitrox20.0
+Description-md5: 8fd0e26ce644e3e8b5d104332765e9be
+Description-en: Data Plane Development Kit (librte-pmd-nitrox runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_nitrox which is
+ The Nitrox crypto poll mode driver provides support for offloading
+ cryptographic operations to the NITROX V security processor
+
+Package: librte-pmd-null-crypto20.0
+Description-md5: 3bd8632b68eb478af29a716a26281011
+Description-en: Data Plane Development Kit (librte-pmd-null-crypto runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_null_crypto.
+
+Package: librte-pmd-null20.0
+Description-md5: 7a6523deb704753dd367f24079230081
+Description-en: Data Plane Development Kit (librte-pmd-null runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_null.
+
+Package: librte-pmd-octeontx-compress20.0
+Description-md5: f0bd3e61068d30093b7ebd5437ac2acc
+Description-en: Data Plane Development Kit (librte_pmd_octeontx_compress runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_octeontx_compress.
+
+Package: librte-pmd-octeontx-crypto20.0
+Description-md5: 0e85a374f0a2b77c63f364f698935402
+Description-en: Data Plane Development Kit (librte_pmd_octeontx_crypto runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_octeontx_crypto.
+
+Package: librte-pmd-octeontx-event20.0
+Description-md5: 6e7ad727dfae69a314bafd62179cff90
+Description-en: Data Plane Development Kit (librte_pmd_octeontx_event runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_octeontx_event.
+
+Package: librte-pmd-octeontx2-20.0
+Description-md5: 6a81a0719ec88608bbc0473ac70a81b4
+Description-en: Data Plane Development Kit (librte-pmd-octeontx2 runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte-pmd-octeontx2.
+
+Package: librte-pmd-octeontx2-crypto20.0
+Description-md5: 9c8176a18545c8157ca47e521a95ecc8
+Description-en: Data Plane Development Kit (crypto for octeontx2 pmd)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for crypto of octeontx2.
+
+Package: librte-pmd-octeontx2-event20.0
+Description-md5: 863c536da1e9aabac7ba49ca42134eb6
+Description-en: Data Plane Development Kit (events for octeontx2 pmd)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for events of octeontx2.
+
+Package: librte-pmd-octeontx20.0
+Description-md5: 4aa8a3d3c4fa1430a8ea090ffe5de888
+Description-en: Data Plane Development Kit (librte_pmd_octeontx runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_octeontx.
+
+Package: librte-pmd-opdl-event20.0
+Description-md5: 6b4d9e7160c6129b43de835464a80dd4
+Description-en: Data Plane Development Kit (librte_pmd_opdl_event runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_opdl_event.
+
+Package: librte-pmd-openssl20.0
+Description-md5: dc9ddc763fd1916d4ad387e914c26f82
+Description-en: Data Plane Development Kit (librte-pmd-openssl runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_openssl.
+
+Package: librte-pmd-pfe20.0
+Description-md5: ad92a54b7e298e9c652e41cbd35faa44
+Description-en: Data Plane Development Kit (librte-pmd-pfe runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_pfe which is
+ The PFE NIC PMD (librte_pmd_pfe) provides poll mode driver support for the
+ inbuilt NIC found in the NXP LS1012 SoC.
+
+Package: librte-pmd-qat20.0
+Description-md5: 031540f43231a6b59636af41b96439ae
+Description-en: Data Plane Development Kit (librte-pmd-qat runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_qat.
+
+Package: librte-pmd-qede20.0
+Description-md5: 0d33301b1609f759a2ac4e303b082131
+Description-en: Data Plane Development Kit (librte-pmd-qede runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_qede which is
+ The base driver is the backend module for the QLogic FastLinQ QL4xxxx
+ 25G/40G CNA family of adapters as well as their virtual functions (VF)
+ in SR-IOV context.
+
+Package: librte-pmd-sfc20.0
+Description-md5: 80eee23f18999de10dae55415afafca5
+Description-en: Data Plane Development Kit (librte_pmd_sfc runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_sfc.
+
+Package: librte-pmd-skeleton-event20.0
+Description-md5: e7930342c2c4c7cb5daa5407293b6406
+Description-en: Data Plane Development Kit (librte_pmd_skeleton_event runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_skeleton_event.
+
+Package: librte-pmd-softnic20.0
+Description-md5: b9a8c02cedcd8c498afc8a4fecd35e26
+Description-en: Data Plane Development Kit (librte-pmd-softnic runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_softnic.
+
+Package: librte-pmd-sw-event20.0
+Description-md5: c56fb2221e1e6b43eb9a40434f5872d9
+Description-en: Data Plane Development Kit (librte_pmd_sw_event runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_sw_event.
+
+Package: librte-pmd-virtio-crypto20.0
+Description-md5: a4d4c657aa403349cd186dbe4188ac56
+Description-en: Data Plane Development Kit (librte-pmd-virtio-crypto runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte-pmd-virtio-crypto.
+
+Package: librte-pmd-zlib20.0
+Description-md5: 44398ec2ed33b34389f176d79607f223
+Description-en: Data Plane Development Kit (librte-pmd-zlib runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_pmd_zlib.
+
+Package: librte-port20.0
+Description-md5: 697ac8487adbef10ffc9c6d3a7ca7313
+Description-en: Data Plane Development Kit (librte-port runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_port.
+
+Package: librte-power20.0
+Description-md5: 59b60fcafb0d534ee6b68c2e1d78d516
+Description-en: Data Plane Development Kit (librte-power runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_power.
+
+Package: librte-rawdev-dpaa2-cmdif20.0
+Description-md5: 8721a6c4c5757a5d0de6c535bbad283d
+Description-en: Data Plane Development Kit (librte-rawdev-dpaa2-cmdif runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte-rawdev-dpaa2-cmdif.
+
+Package: librte-rawdev-dpaa2-qdma20.0
+Description-md5: 367e2c587124b89a966b470c91e59c33
+Description-en: Data Plane Development Kit (librte-rawdev-dpaa2-qdma runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte-rawdev-dpaa2-qdma.
+
+Package: librte-rawdev-ioat20.0
+Description-md5: 7abb29948631acc26c9393cf010f52bb
+Description-en: Data Plane Development Kit (librte-rawdev-ioat runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte-rawdev-ioat.
+
+Package: librte-rawdev-ntb20.0
+Description-md5: ae332ef1d6db6ceb64e871b0a32f0f70
+Description-en: Data Plane Development Kit (librte-rawdev-ntb runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte-rawdev-ntb.
+
+Package: librte-rawdev-octeontx2-dma20.0
+Description-md5: 13151589d058e964b63f8609ab5b36c7
+Description-en: Data Plane Development Kit (librte-rawdev-octeontx2-dma runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte-rawdev-octeontx2-dma.
+
+Package: librte-rawdev-skeleton20.0
+Description-md5: a9958b00627555040a4709466664b0c2
+Description-en: Data Plane Development Kit (librte-rawdev-skeleton runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte-rawdev-skeleton.
+
+Package: librte-rawdev20.0
+Description-md5: 4b8f146f9c926118dceab59eaece074a
+Description-en: Data Plane Development Kit (librte-rawdev runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_rawdev.
+
+Package: librte-rcu0.200
+Description-md5: 158d459ef0fe1fb14916ddf04e62fd0f
+Description-en: Data Plane Development Kit (librte-rcu runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte-rcu.
+ FYI: This library still is highly experimental.
+
+Package: librte-reorder20.0
+Description-md5: b525b6145ec1b3da47279e7b37a4ad32
+Description-en: Data Plane Development Kit (librte-reorder runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_reorder.
+
+Package: librte-rib0.200
+Description-md5: 14620b16cb570189bc3c511acf6bafee
+Description-en: Data Plane Development Kit (librib runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librib.
+ RIB is a Level compressed tree implementation for IPv4 Longest Prefix Match
+ FYI: This library still is highly experimental.
+
+Package: librte-stack0.200
+Description-md5: f156b2e443896806037a0e28b25e4b6e
+Description-en: Data Plane Development Kit (librte-stack runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte-stack.
+ FYI: This library still is highly experimental.
+
+Package: librte-table20.0
+Description-md5: 75f8994b659c550c6b2af17f264ce84b
+Description-en: Data Plane Development Kit (librte_table runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_table.
+
+Package: librte-telemetry0.200
+Description-md5: 42772017618242dc9ccb1e6fa97e0a63
+Description-en: Data Plane Development Kit (librte_telemetry runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_telemetry.
+ FYI: This library still is highly experimental.
+
+Package: librte-timer20.0
+Description-md5: 9791ba77b8f05124f451de7210920b5f
+Description-en: Data Plane Development Kit (librte_timer runtime library)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime libraries for librte_timer.
+
+Package: libsnmp-perl
+Description-md5: 5ee88a696b0fa001f969ddb758d70f1f
+Description-en: SNMP (Simple Network Management Protocol) Perl5 support
+ The Simple Network Management Protocol (SNMP) provides a framework
+ for the exchange of management information between agents (servers)
+ and clients.
+ .
+ The Net-SNMP Perl5 support files provide the Perl functions for
+ integration of SNMP into applications written in Perl.
+
+Package: libsqlite3-tcl
+Description-md5: cb33fef2641311d660662ee9d18d437c
+Description-en: SQLite 3 Tcl bindings
+ SQLite is a C library that implements an SQL database engine.
+ Programs that link with the SQLite library can have SQL database
+ access without running a separate RDBMS process.
+ .
+ This package contains the Tcl bindings.
+
+Package: libturbojpeg
+Description-md5: 3073afdfd92a8a7a0a5d37901f26865d
+Description-en: IJG JPEG compliant runtime library.
+ Runtime library supporting the Independent JPEG Group's standard
+ for JPEG files.
+ .
+ This package contains the libturbojpeg.so library, used by
+ turboVNC and other users of the past TurboJPEG library.
+
+Package: libturbojpeg0-dev
+Description-md5: 5961e39a83c1657d246018b58cb0e3ab
+Description-en: Development files for the TurboJPEG library
+ The libjpeg-turbo JPEG library is a library for handling JPEG files.
+ .
+ libjpeg-turbo is a JPEG image codec that uses SIMD instructions (MMX,
+ SSE2, NEON) to accelerate baseline JPEG compression and decompression
+ on x86, x86-64, and ARM systems.
+ .
+ This package contains the static library, headers and documentation for
+ the TurboJPEG library.
+
+Package: libwebkit2gtk-4.0-37-gtk2
+Description-md5: 6f9942fc5c89d6509a6a0d29c52e612b
+Description-en: Transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+ .
+ WebKitGTK no longer supports plugins that depend on GTK 2. If you
+ still need to use the Adobe Flash Player then you can install
+ browser-plugin-freshplayer-pepperflash.
+
+Package: mail-stack-delivery
+Description-md5: a344ae6c5f24033e88eae160780ba7aa
+Description-en: transitional package
+ This is a transitional package. It can safely be removed.
+ .
+ If you had formerly set up dovecot via mail-stack-delivery this package will
+ still have the configuration /etc/dovecot/conf.d/99-mail-stack-delivery.conf
+ associated to it which will be removed if you purge the package.
+
+Package: mysql-router
+Description-md5: 68df088e13493c106d4f76a2eb4efc60
+Description-en: route connections from MySQL clients to MySQL servers
+ MySQL Router is part of InnoDB cluster, and is lightweight middleware that
+ provides transparent routing between your application and back-end MySQL
+ servers. It can be used for a wide variety of use cases, such as providing
+ high availability and scalability by effectively routing database traffic to
+ appropriate back-end MySQL servers. The pluggable architecture also enables
+ developers to extend MySQL Router for custom use cases.
+ .
+ Since MySQL Router is clustering software and needs to be configured and
+ managed across an entire cluster, packaging cannot manage it for you. This
+ package supplies the binary build only, ready for manual configuration.
+
+Package: mysql-source-8.0
+Description-md5: 88f58941059fab032315a68e3122ac60
+Description-en: MySQL source
+ MySQL is a fast, stable, and true multi-user, multi-threaded SQL database
+ server.  SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MySQL are speed, robustness and
+ ease of use.
+ .
+ This package includes the MySQL source code as configured before building
+ - but after the arch specific configuration. This is currently required for
+ building plugins.
+
+Package: mysql-testsuite
+Description-md5: a37f36627bd4d1ec3a167a2eae840534
+Description-en: MySQL regression tests
+ This is an empty package that depends on the current "best" version of
+ mysql-testsuite (currently mysql-testsuite-8.0), as determined by the
+ MySQL maintainers.  Install this package if in doubt about which MySQL
+ version you want, as this is the one we consider to be in the best shape.
+
+Package: mysql-testsuite-8.0
+Description-md5: ccc32250aefb33a80993be5dab467ee4
+Description-en: MySQL 8.0 testsuite
+ MySQL is a fast, stable, and true multi-user, multi-threaded SQL database
+ server.  SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MySQL are speed, robustness and
+ ease of use.
+ .
+ This package includes the MySQL testsuite.
+
+Package: nodejs-mozilla
+Description-md5: e507fb472d7cdaceffc5b285a62d5c1b
+Description-en: evented I/O for V8 javascript
+ Node.js is a platform built on Chrome's JavaScript runtime for easily
+ building fast, scalable network applications. Node.js uses an
+ event-driven, non-blocking I/O model that makes it lightweight and
+ efficient, perfect for data-intensive real-time applications that run
+ across distributed devices.
+ .
+ Node.js is bundled with several useful libraries to handle server
+ tasks:
+ .
+ System, Events, Standard I/O, Modules, Timers, Child Processes, POSIX,
+ HTTP, Multipart Parsing, TCP, DNS, Assert, Path, URL, Query Strings.
+
+Package: openexr
+Description-md5: df2e7dd14eff4a12449119460fbd674c
+Description-en: command-line tools for the OpenEXR image format
+ OpenEXR is a high dynamic-range (HDR) image file format developed by
+ Industrial Light & Magic for use in computer imaging applications.
+ .
+ OpenEXR's features include:
+    * Higher dynamic range and colour precision than existing 8- and
+      10-bit image file formats.
+    * Support for the "half" 16-bit floating-point pixel format.
+    * Multiple lossless image compression algorithms. Some of the
+      included codecs can achieve 2:1 lossless compression ratios on
+      images with film grain.
+    * Extensibility. New compression codecs and image types can easily
+      be added by extending the C++ classes included in the OpenEXR
+      software distribution. New image attributes (strings, vectors,
+      integers, etc.) can be added to OpenEXR image headers without
+      affecting backward compatibility with existing OpenEXR
+      applications.
+ .
+ This package contains the following tools:
+    * exrheader, a utility for dumping header information.
+    * exrstdattr, a utility for modifying OpenEXR standard attributes.
+    * exrmaketiled, for generating tiled and rip/mipmapped images.
+    * exrenvmap, for creating OpenEXR environment maps.
+    * exrmakepreview, for creating preview images for OpenEXR files.
+
+Package: openexr-doc
+Description-md5: c8baf45f50905173b1b5840781491106
+Description-en: documentation and examples for the OpenEXR image format
+ OpenEXR is a high dynamic-range (HDR) image file format developed by
+ Industrial Light & Magic for use in computer imaging applications.
+ .
+ OpenEXR's features include:
+    * Higher dynamic range and colour precision than existing 8- and
+      10-bit image file formats.
+    * Support for the "half" 16-bit floating-point pixel format.
+    * Multiple lossless image compression algorithms. Some of the
+      included codecs can achieve 2:1 lossless compression ratios on
+      images with film grain.
+    * Extensibility. New compression codecs and image types can easily
+      be added by extending the C++ classes included in the OpenEXR
+      software distribution. New image attributes (strings, vectors,
+      integers, etc.) can be added to OpenEXR image headers without
+      affecting backward compatibility with existing OpenEXR
+      applications.
+ .
+ This package contains documentation for the format and examples
+
+Package: php7.4-bcmath
+Description-md5: 8f9f425714b203a9b7d1f3678f64c107
+Description-en: Bcmath module for PHP
+ This package provides the Bcmath module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php7.4-bz2
+Description-md5: 6221ff838ed81a370f3420140a1ccf42
+Description-en: bzip2 module for PHP
+ This package provides the bzip2 module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php7.4-dba
+Description-md5: a1c9cd8c67d752f4aaf0ba88ecb360df
+Description-en: DBA module for PHP
+ This package provides the DBA module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php7.4-enchant
+Description-md5: 687582edca33aa141d3f62c1294fcb07
+Description-en: Enchant module for PHP
+ This package provides the Enchant module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php7.4-fpm
+Description-md5: 734199a3b4b4d39ae95157bbfb8dd276
+Description-en: server-side, HTML-embedded scripting language (FPM-CGI binary)
+ This package provides the Fast Process Manager interpreter that runs
+ as a daemon and receives Fast/CGI requests.  Note that MOST Apache users
+ probably want the libapache2-mod-php7.4 package.
+ .
+ The following extensions are built in: Core date filter hash libxml openssl
+ pcre Reflection session sodium SPL standard zlib.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php7.4-imap
+Description-md5: 73ce2e5dbb1377bc41524b600892883b
+Description-en: IMAP module for PHP
+ This package provides the IMAP module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php7.4-interbase
+Description-md5: 40c18d15eeba50ef5700d72e1e45d586
+Description-en: Interbase module for PHP
+ This package provides the Interbase module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php7.4-intl
+Description-md5: 576352b0c1559ceb07b3161367c69f39
+Description-en: Internationalisation module for PHP
+ This package provides the Internationalisation module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php7.4-mbstring
+Description-md5: 741a0b4b31628c18e80bdef4f0ec8141
+Description-en: MBSTRING module for PHP
+ This package provides the MBSTRING module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php7.4-phpdbg
+Description-md5: b63c3912ccce0ee2bb6442c443ae0fe2
+Description-en: server-side, HTML-embedded scripting language (PHPDBG binary)
+ This package provides the /usr/bin/phpdbg command interpreter, useful for
+ stepthrough debugging of PHP code.
+ .
+ The following extensions are built in: Core date filter hash libxml openssl
+ pcntl pcre Reflection session sodium SPL standard zlib.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php7.4-soap
+Description-md5: 8ca6ca2ae4fbc6127f6522e73f05005a
+Description-en: SOAP module for PHP
+ This package provides the SOAP module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php7.4-sybase
+Description-md5: c5f3c0b4521b40ee671df4ab3452df1d
+Description-en: Sybase module for PHP
+ This package provides the Sybase module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php7.4-xsl
+Description-md5: 93c8fc5e2935346a001f328e898c3cff
+Description-en: XSL module for PHP (dummy)
+ This package is a transitional dummy package and can be safely
+ removed.
+
+Package: php7.4-zip
+Description-md5: e148c478613188b645a0ec42c87f0518
+Description-en: Zip module for PHP
+ This package provides the Zip module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: pulseaudio-equalizer
+Description-md5: 5402a1f4cf8652b508501dd29d402735
+Description-en: Equalizer sink module for PulseAudio sound server
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ This package provides an equalizer sink and an interface to configure the
+ equalizer, qpaeq.
+ .
+ The module is called module-equalizer-sink.
+
+Package: pulseaudio-module-gsettings
+Description-md5: aa109fa55f43c753c87072a2aadcb7d0
+Description-en: GSettings module for PulseAudio sound server
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ This module enables PulseAudio to store additional configuration in GSettings.
+ It supersedes the gconf module.
+ .
+ The module is called module-gsettings.
+
+Package: pulseaudio-module-jack
+Description-md5: a45f4943771fb4ccf89a76a36f7f6f13
+Description-en: jackd modules for PulseAudio sound server
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ These modules enables PulseAudio to connect to a jackd daemon.
+ .
+ The modules are called module-jack-sink, module-jack-source.
+
+Package: pulseaudio-module-lirc
+Description-md5: 476ebc36bd51c387e0a12a54352ae162
+Description-en: lirc module for PulseAudio sound server
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ This module enables the volume of a PulseAudio sink to be controlled when
+ buttons of an infrared remote control are pressed (through LIRC).
+ .
+ The module is called module-lirc.
+
+Package: pulseaudio-module-raop
+Description-md5: f443b32abfa3073d1874fa9b76cf88b1
+Description-en: RAOP module for PulseAudio sound server
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ This module enables PulseAudio to stream audio to an Apple Airport Express.
+
+Package: pulseaudio-module-zeroconf
+Description-md5: bccd0c2eacb18c71f7d829db12f93aae
+Description-en: Zeroconf module for PulseAudio sound server
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ This module enables PulseAudio to publish available sinks and sources via
+ zeroconf (aka. Avahi, mdns).
+ .
+ The module is called module-zeroconf-publish.
+
+Package: python-unbound
+Description-md5: 103cd64b79e42ad710e19fe727ffce50
+Description-en: library implementing DNS resolution and validation (Python bindings)
+ Python extension module for libunbound.
+ .
+ libunbound performs and validates DNS lookups; it can be used to convert
+ hostnames to IP addresses and back and obtain other information from the
+ DNS. Cryptographic validation of results is performed with DNSSEC.
+
+Package: python3-seccomp
+Description-md5: 4d2f47f47736ce3d567ce8905563031c
+Description-en: high level interface to Linux seccomp filter (Python 3 bindings)
+ This library provides a high level interface to constructing, analyzing
+ and installing seccomp filters via a BPF passed to the Linux Kernel's
+ prctl() syscall.
+
+Package: python3-unbound
+Description-md5: af30f925fc4c43d06de34592670b36e8
+Description-en: library implementing DNS resolution and validation (Python3 bindings)
+ Python3 extension module for libunbound.
+ .
+ libunbound performs and validates DNS lookups; it can be used to convert
+ hostnames to IP addresses and back and obtain other information from the
+ DNS. Cryptographic validation of results is performed with DNSSEC.
+
+Package: python3.8-venv
+Description-md5: d16828bf8bf56928e6bfb6f1a9a2f48a
+Description-en: Interactive high-level object-oriented language (pyvenv binary, version 3.8)
+ Python is a high-level, interactive, object-oriented language. Its 3.8 version
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains the pyvenv-3.8 binary.
+
+Package: qemu-guest-agent
+Description-md5: c2bc281a0e5a8e6c2185b336580fd595
+Description-en: Guest-side qemu-system agent
+ QEMU is a fast processor emulator: currently the package supports
+ ARM, CRIS, i386, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, SH4,
+ SPARC and x86-64 emulation. By using dynamic translation it achieves
+ reasonable speed while being easy to port on new host CPUs.
+ .
+ This package provides a daemon (agent) to run inside qemu-system
+ guests (full system emulation).  It communicates with the host using
+ a virtio-serial channel org.qemu.guest_agent.0, and allows one to perform
+ some functions in the guest from the host, including:
+  - querying and setting guest system time
+  - performing guest filesystem sync operation
+  - initiating guest shutdown or suspend to ram
+  - accessing guest files
+  - freezing/thawing guest filesystem operations
+  - others.
+ .
+ Install this package on a system which is running as guest inside
+ qemu virtual machine.  It is not used on the host.
+
+Package: qemu-system-x86-microvm
+Description-md5: abc56087a436379485d3b2c96b75340a
+Description-en: QEMU minimized system emulation binaries (x86)
+ QEMU is a fast processor emulator - this minimal package supports
+ only KVM based x86-64 system emulation with a vastly reduced feature set
+ intended to be used with the microvm machine type.
+ .
+ This minimal qemu is stripped of most features to save startup time when
+ spawning for use cases with the microvm type and the bios-microvm.bin bios
+ which are used to provide container like use cases with KVM isolation.
+ For any other common KVM based activity qemu-system-x86 will be more suited.
+
+Package: qemu-system-x86-xen
+Description-md5: 44c7302a148191180d4e29e20a3977e2
+Description-en: QEMU full system emulation binaries (x86)
+ QEMU is a fast processor emulator: currently the package supports
+ i386 and x86-64 emulation. By using dynamic translation it achieves
+ reasonable speed while being easy to port on new host CPUs.
+ .
+ This package provides the full system emulation binaries to emulate
+ the following x86 hardware: .
+ .
+ In comparison to the main qemu-system-x86 this package has xen support
+ enabled, but is only maintained as universe package. Qemu with xen support
+ is needed to run Xen in HVM mode. For any other use case you should install
+ and use qemu-system-x86 instead.
+
+Package: qemu-user
+Description-md5: b7a34d8d1377ca0beb573e0e2b4ce914
+Description-en: QEMU user mode emulation binaries
+ QEMU is a fast processor emulator: currently the package supports
+ ARM, CRIS, i386, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, SH4,
+ SPARC and x86-64 emulation. By using dynamic translation it achieves
+ reasonable speed while being easy to port on new host CPUs.
+ .
+ This package provides the user mode emulation binaries. In this mode
+ QEMU can launch Linux processes compiled for one CPU on another CPU.
+ .
+ If qemu-user-binfmt package is also installed, it will register binary
+ format handlers from this qemu-user package with the kernel so it will
+ be possible to run foreign binaries directly.  However, this might not
+ be suitable for using inside foreign chroots, in which case it is
+ possible to use qemu-user-static package instead of qemu-user-binmft, --
+ qemu-user-static will register statically linked binfmt handlers instead.
+
+Package: qemu-user-binfmt
+Description-md5: b9d172841422ce933839d1a34cce7b20
+Description-en: QEMU user mode binfmt registration for qemu-user
+ QEMU is a fast processor emulator: currently the package supports
+ ARM, CRIS, i386, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, SH4,
+ SPARC and x86-64 emulation. By using dynamic translation it achieves
+ reasonable speed while being easy to port on new host CPUs.
+ .
+ This package provides binfmt support registration for the user mode
+ emulation binaries from qemu-user.  This is an empty package, it does
+ not contain any additional files, only registration scripts which run
+ at install and remove times.
+
+Package: qemu-user-static
+Description-md5: 745cf1fdce8807e14d332ae512779b8f
+Description-en: QEMU user mode emulation binaries (static version)
+ QEMU is a fast processor emulator: currently the package supports
+ ARM, CRIS, i386, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, SH4,
+ SPARC and x86-64 emulation. By using dynamic translation it achieves
+ reasonable speed while being easy to port on new host CPUs.
+ .
+ This package provides the user mode emulation binaries, built
+ statically. In this mode QEMU can launch Linux processes compiled for
+ one CPU on another CPU.
+ .
+ qemu-user-static package will register binary formats which the provided
+ emulators can handle, so that it will be possible to run foreign binaries
+ directly.
+
+Package: registry-tools
+Description-md5: 7266dad7d5ee9360537ffc04ec7157f3
+Description-en: tools for viewing and manipulating the Windows registry
+ Samba is an implementation of the SMB/CIFS protocol for Unix systems,
+ providing support for cross-platform file sharing with Microsoft Windows, OS X,
+ and other Unix systems.  Samba can also function as a domain controller
+ or member server in both NT4-style and Active Directory domains.
+ .
+ This package contains tools for viewing and manipulating the binary
+ "registry" found on Windows machines, both locally and remote.
+
+Package: samba-testsuite
+Description-md5: 9909252a54b8d1689d0ad0af3791b792
+Description-en: test suite from Samba
+ Samba is an implementation of the SMB/CIFS protocol for Unix systems,
+ providing support for cross-platform file sharing with Microsoft Windows, OS X,
+ and other Unix systems.  Samba can also function as a domain controller
+ or member server in both NT4-style and Active Directory domains.
+ .
+ This package contains programs for testing the reliability and speed
+ of SMB servers, Samba in particular.
+
+Package: slapd-contrib
+Description-md5: ff6e572efbbb94ce9953af67807dabd9
+Description-en: contributed plugins for OpenLDAP slapd
+ This package contains a number of slapd overlays and plugins contributed by
+ the OpenLDAP community. While distributed as part of OpenLDAP Software, they
+ are not necessarily supported by the OpenLDAP Project.
+
+Package: slapd-smbk5pwd
+Description-md5: c3ad6e9af00b91f4237f7de732bf9c27
+Description-en: transitional package for slapd-contrib
+ This is a transitional package from slapd-smbk5pwd to slapd-contrib. It can be
+ safely removed.
+
+Package: snmptrapd
+Description-md5: 5813c4c7d76971aa4ce271dad1bfb061
+Description-en: Net-SNMP notification receiver
+ The Simple Network Management Protocol (SNMP) provides a framework
+ for the exchange of management information between agents (servers)
+ and clients.
+ .
+ snmptrapd is an SNMP application (daemon) that receives and logs SNMP TRAP
+ and INFORM messages.
+
+Package: squid-cgi
+Description-md5: d0bf1074b507dacb37098691582296d3
+Description-en: Full featured Web Proxy cache (HTTP proxy) - control CGI
+ Squid is a high-performance proxy caching server for web clients, supporting
+ FTP, gopher, ICY and HTTP data objects.
+ .
+ This package contains a CGI program that can be used to query and administrate
+ a `squid' proxy cache through a web browser.
+
+Package: squid-purge
+Description-md5: 6b0c45a8b98e5c8365894c6c648205d7
+Description-en: Full featured Web Proxy cache (HTTP proxy) - cache management utility
+ Squid is a high-performance proxy caching server for web clients, supporting
+ FTP, gopher, ICY and HTTP data objects.
+ .
+ This package contains a small utility that can be used to manage the disk cache
+ from the command line.
+
+Package: squidclient
+Description-md5: 50857a05e6c54a91b3123291e8661995
+Description-en: Full featured Web Proxy cache (HTTP proxy) - HTTP(S) message utility
+ Squid is a high-performance proxy caching server for web clients, supporting
+ FTP, gopher, ICY and HTTP data objects.
+ .
+ This package contains a small utility that can be used to get URLs from the
+ command line.
+
+Package: thunderbird-gnome-support-dbg
+Description-md5: 8fa21aaf02af881ccc7c33f8559e6531
+Description-en: Email, RSS and newsgroup client - transitional package
+ This is a transitional package to ensure that upgrades work correctly.
+ It can be safely removed
+
+Package: thunderbird-mozsymbols
+Description-md5: ac1a6a5ccd00092e19efbf6f6f9538a0
+Description-en: Email, RSS and newsgroup client - Breakpad symbols
+ Thunderbird is a full-featured email, RSS and newsgroup client that makes
+ emailing safer, faster and easier than ever before. It supports different mail
+ accounts (POP, IMAP, Gmail), has a simple mail account setup wizard, one-
+ click address book, tabbed interface, an integrated learning spam filter,
+ advanced search and indexing capabilities, and offers easy organization
+ of mails with tagging and virtual folders. It also features unrivalled
+ extensibility.
+ .
+ This package contains the Firefox symbols in a format expected by Mozilla's
+ Breakpad. Eventually this package should go away and the symbol upload be
+ implemented in soyuz (or other builders that build this package)
+
+Package: tkmib
+Description-md5: 3e99f331a5c32c38e42f396a8c41e207
+Description-en: SNMP (Simple Network Management Protocol) MIB browser
+ The Simple Network Management Protocol (SNMP) provides a framework
+ for the exchange of management information between agents (servers)
+ and clients.
+ .
+ The Net-SNMP MIB (Management Information Base) Browser provides a
+ graphical frontend for the Net-SNMP tools. It can be used to browse
+ the MIB tree and interactively send requests to SNMP agents.
+
+Package: unbound
+Description-md5: fbeecad8349f6b3042087b256bc69b68
+Description-en: validating, recursive, caching DNS resolver
+ Unbound is a recursive-only caching DNS server which can perform DNSSEC
+ validation of results. It implements only a minimal amount of authoritative
+ service to prevent leakage to the root nameservers: forward lookups for
+ localhost, reverse for 127.0.0.1 and ::1, and NXDOMAIN for zones served by
+ AS112. Stub and forward zones are supported.
+ .
+ This package contains the unbound daemon.
+
+Package: unbound-anchor
+Description-md5: f49fb3435120bde9cd4af959aeac719c
+Description-en: utility to securely fetch the root DNS trust anchor
+ unbound-anchor is a utility which securely fetches or updates the root DNS
+ zone trust anchor. A copy of the current root anchor and root update
+ certificate is embedded in unbound-anchor. RFC 5011 trust anchor tracking is
+ performed, with fallback to an SSL fetch if this fails.
+
+Package: unbound-host
+Description-md5: 287e113772f55d3575bb8577560cb3eb
+Description-en: reimplementation of the 'host' command
+ This package provides the 'unbound-host' program that is bundled with the
+ Unbound domain name server. This version differs from the one provided in the
+ package called host, which is from NIKHEF, and bind9-host, which is from ISC,
+ and has a similar but different set of features and options.
+
+Package: vinagre
+Description-md5: 7b8120bed7cdcf52c73e679629d622fa
+Description-en: remote desktop client for the GNOME Desktop
+ Vinagre is a remote desktop client integrated into the GNOME Desktop.
+ .
+ With Vinagre you can have several connections open simultaneously,
+ bookmark your servers thanks to the Favorites support, store the
+ passwords in the GNOME keyring, and browse the network to look for
+ VNC servers.
+ .
+ Supported protocols are VNC, SSH, and RDP.
+
+Package: webkit2gtk-driver
+Description-md5: b1b90b3877648e44017be43c33ecc59b
+Description-en: WebKitGTK WebDriver support
+ WebKit is a web content engine, derived from KHTML and KJS from KDE, and
+ used primarily in Apple's Safari browser.  It is made to be embedded in
+ other applications, such as mail readers, or web browsers.
+ .
+ It is able to display content such as HTML, SVG, XML, and others. It also
+ supports DOM, XMLHttpRequest, XSLT, CSS, JavaScript/ECMAScript and more.
+ .
+ WebKit2 is an API layer for WebKit designed from the ground up to
+ support a split process model, where the web content lives in a
+ separate process from the application UI.
+ .
+ This build comes from the GTK port of WebKit (API version 4.0).
+ .
+ This package provides the WebDriver service implementation for
+ WebKitGTK.
+
+Package: xul-ext-calendar-timezones
+Description-md5: aa51586667f70f4444de07214c475b6d
+Description-en: Calendar Extension for Thunderbird (transitional package)
+ This is a transitional package to ensure that upgrades work correctly.
+ It can be safely removed
+
+Package: xul-ext-gdata-provider
+Description-md5: aa51586667f70f4444de07214c475b6d
+Description-en: Calendar Extension for Thunderbird (transitional package)
+ This is a transitional package to ensure that upgrades work correctly.
+ It can be safely removed
+
+Package: xul-ext-lightning
+Description-md5: a0293e147dba3d166b3727a30a6634a0
+Description-en: Calendar Extension for Thunderbird
+ Lighting is the Mozilla Calendar extension for Thunderbird, based
+ on Sunbird - the Mozilla Standalone Calendar application. It is tightly
+ integrated with Thunderbird, allowing it to easily perform email-related
+ calendaring tasks.
+
+Package: fwupd-arm64-signed-template
+Description-md5: 19d35f78650aadabde42d595495fc832
+Description-en: Template for signed fwupd package
+ This package is used to control code signing by the Debian signing
+ service.
+
+Package: fwupd-armhf-signed-template
+Description-md5: 19d35f78650aadabde42d595495fc832
+Description-en: Template for signed fwupd package
+ This package is used to control code signing by the Debian signing
+ service.
+

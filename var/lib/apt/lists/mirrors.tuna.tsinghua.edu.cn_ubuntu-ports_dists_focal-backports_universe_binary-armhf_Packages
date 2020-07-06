@@ -1,0 +1,275 @@
+Package: cockpit
+Architecture: all
+Version: 221.1-1~ubuntu20.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 65
+Depends: cockpit-bridge (>= 221.1-1~ubuntu20.04.1), cockpit-ws (>= 221.1-1~ubuntu20.04.1), cockpit-system (>= 221.1-1~ubuntu20.04.1)
+Recommends: cockpit-storaged (>= 221.1-1~ubuntu20.04.1), cockpit-networkmanager (>= 221.1-1~ubuntu20.04.1), cockpit-packagekit (>= 221.1-1~ubuntu20.04.1)
+Suggests: cockpit-doc (>= 221.1-1~ubuntu20.04.1), cockpit-pcp (>= 221.1-1~ubuntu20.04.1), cockpit-machines (>= 221.1-1~ubuntu20.04.1), xdg-utils
+Filename: pool/universe/c/cockpit/cockpit_221.1-1~ubuntu20.04.1_all.deb
+Size: 18456
+MD5sum: fa61ff7234ce61ccd8d902c195348581
+SHA1: d177f14bd790cd891188c1dd18d3545d22cf1a2c
+SHA256: dc4eec569ffaed4b13a8452a6fe0734bb9ccd24336bb1f74bf90b281cea40126
+Homepage: https://cockpit-project.org/
+Description: Web Console for Linux servers
+Description-md5: 24b0aa0c07779dcba10e15ca9244d9e9
+
+Package: cockpit-bridge
+Architecture: armhf
+Version: 221.1-1~ubuntu20.04.1
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1225
+Provides: cockpit-ssh
+Depends: libc6 (>= 2.28), libglib2.0-0 (>= 2.39.4), libjson-glib-1.0-0 (>= 1.2.0), libpolkit-agent-1-0 (>= 0.105), libpolkit-gobject-1-0 (>= 0.104), libssh-4 (>= 0.8.5), libsystemd0 (>= 235), glib-networking
+Breaks: cockpit-dashboard (<< 170.x), cockpit-ws (<< 181.x)
+Replaces: cockpit-dashboard (<< 170.x), cockpit-ws (<< 181.x)
+Filename: pool/universe/c/cockpit/cockpit-bridge_221.1-1~ubuntu20.04.1_armhf.deb
+Size: 521960
+MD5sum: 693125efee72c2bad91052e8279f07e7
+SHA1: 73e42808832816947e82c4e51f168c4cd144a048
+SHA256: 7cabb8995f10d663ddbf8fc1cc61f9f351ca432e35b4f8842e0951ab58356065
+Homepage: https://cockpit-project.org/
+Description: Cockpit bridge server-side component
+Description-md5: 34419f40043aa83e9a0fb5968fe56ce7
+
+Package: cockpit-dashboard
+Architecture: all
+Version: 221.1-1~ubuntu20.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 308
+Depends: cockpit-bridge (>= 170.x), cockpit-ws (>= 221.1-1~ubuntu20.04.1), cockpit-ws (<< 221.1-1~ubuntu20.04.1.1~)
+Replaces: cockpit-system (<< 128), cockpit-ws (<< 128)
+Filename: pool/universe/c/cockpit/cockpit-dashboard_221.1-1~ubuntu20.04.1_all.deb
+Size: 278524
+MD5sum: 32ab1ffa0c350859ac1e1b6b04671af3
+SHA1: 149627e55ec42b76d94ca3e0ed6e9ca2e45c99e0
+SHA256: 3b368e57c4dcd4ab256e8806dca74a2461b54c9375371daa8f8efc133be0c14c
+Homepage: https://cockpit-project.org/
+Description: Cockpit remote server dashboard
+Description-md5: b1a8495da6efc7dc8e26e4e75f555440
+
+Package: cockpit-doc
+Architecture: all
+Version: 221.1-1~ubuntu20.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/doc
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 655
+Filename: pool/universe/c/cockpit/cockpit-doc_221.1-1~ubuntu20.04.1_all.deb
+Size: 250312
+MD5sum: 1ef08377035ca9a74655e92b6922d934
+SHA1: 724599185da9d02493bde322314d1f4b6717280e
+SHA256: 280662323559e81109254c702d94724b311c562062c560d35dc7c0e09fbdf381
+Homepage: https://cockpit-project.org/
+Description: Cockpit deployment and developer guide
+Description-md5: 917dc8f7798407683627da6ebb139a47
+
+Package: cockpit-machines
+Architecture: all
+Version: 221.1-1~ubuntu20.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 766
+Depends: libvirt-daemon-system, libvirt-clients | libvirt-bin, libvirt-dbus
+Recommends: virtinst, python3-gi, gir1.2-libosinfo-1.0, qemu-block-extra
+Filename: pool/universe/c/cockpit/cockpit-machines_221.1-1~ubuntu20.04.1_all.deb
+Size: 749176
+MD5sum: 709f2ddd79035cce965dcab70bed679e
+SHA1: 247b6394798c0cfea5366eaede47b9812569b769
+SHA256: 76df6f365fdc89576652e3951fab865ee0868211856c1d45d5b9bd52316903fa
+Homepage: https://cockpit-project.org/
+Description: Cockpit user interface for virtual machines
+Description-md5: a902f6feddb06225624681441d26bc7d
+
+Package: cockpit-networkmanager
+Architecture: all
+Version: 221.1-1~ubuntu20.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 579
+Depends: cockpit-bridge (>= 186), network-manager (>= 1.6)
+Filename: pool/universe/c/cockpit/cockpit-networkmanager_221.1-1~ubuntu20.04.1_all.deb
+Size: 486164
+MD5sum: 9c4cc8826dab02823e085021d43c4d13
+SHA1: 6803c2a49ad206e79be7aa4aba66028adca8153c
+SHA256: 53e65aaa793182ff716ee6e391973b5448361e410db76101ebd0b68423bf8a3d
+Homepage: https://cockpit-project.org/
+Description: Cockpit user interface for networking
+Description-md5: 3ec1a60ecda81a24c8267c56cf7a9a3f
+
+Package: cockpit-packagekit
+Architecture: all
+Version: 221.1-1~ubuntu20.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 595
+Depends: cockpit-bridge (>= 186), packagekit
+Filename: pool/universe/c/cockpit/cockpit-packagekit_221.1-1~ubuntu20.04.1_all.deb
+Size: 495040
+MD5sum: f7c6c7ab809052ed520c415ccf4c02e4
+SHA1: 353631b856f6178175b14188a8344e8dc0d26151
+SHA256: bfaa1778a05cb07afa94adae5d11c61a9d9cc192be94dfb8dd73223cdc821bdb
+Homepage: https://cockpit-project.org/
+Description: Cockpit user interface for packages
+Description-md5: 01ecbad973ab31bb91eb03019d4352aa
+
+Package: cockpit-pcp
+Architecture: armhf
+Version: 221.1-1~ubuntu20.04.1
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 166
+Depends: libc6 (>= 2.11), libglib2.0-0 (>= 2.37.3), libjson-glib-1.0-0 (>= 0.16.0), libpcp3, libsystemd0 (>= 235), cockpit-bridge (>= 186), pcp
+Filename: pool/universe/c/cockpit/cockpit-pcp_221.1-1~ubuntu20.04.1_armhf.deb
+Size: 65124
+MD5sum: c1fcb2b6e3a40206ebb127ad3c3bf22b
+SHA1: c5c82489aa7f46324850e3d74445b0d16d6dd54b
+SHA256: b77a995e4fb1bb786e377966a9293823c048bc34ac381053a7b5661fdfec005b
+Homepage: https://cockpit-project.org/
+Description: Cockpit PCP integration
+Description-md5: 2bcebebdc8b56e2cd8c2ba8755912a8f
+
+Package: cockpit-storaged
+Architecture: all
+Version: 221.1-1~ubuntu20.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 642
+Depends: udisks2 (>= 2.7), libblockdev-mdraid2, cockpit-bridge (>= 186), python3, python3-dbus
+Filename: pool/universe/c/cockpit/cockpit-storaged_221.1-1~ubuntu20.04.1_all.deb
+Size: 615960
+MD5sum: 6a786dde04a44c19c2c29cb93a43b34b
+SHA1: 07b7484b4aa23b71fd3ac508ec99f945bb0caf12
+SHA256: 441ba2ce6ad834f57ee6923f4b9ebf2accd519760c2ba6a6703c1f1b8ed0b453
+Homepage: https://cockpit-project.org/
+Description: Cockpit user interface for storage
+Description-md5: f6107ca2b49a2b554a0abcd9b73419c5
+
+Package: cockpit-system
+Architecture: all
+Version: 221.1-1~ubuntu20.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2620
+Provides: cockpit-shell, cockpit-systemd, cockpit-tuned, cockpit-users
+Depends: cockpit-bridge (>= 186), libpwquality-tools, openssl
+Recommends: policykit-1
+Conflicts: cockpit-shell
+Replaces: cockpit-shell
+Filename: pool/universe/c/cockpit/cockpit-system_221.1-1~ubuntu20.04.1_all.deb
+Size: 2097860
+MD5sum: 7aa0f8087992edb1ee555d1720d9665e
+SHA1: 4720d8afeb8319c689943a340becfc64c25f5d75
+SHA256: 0c41d457d25841a1e92454ca294f937973b0b9dc28714ae00274c2180a89dd57
+Homepage: https://cockpit-project.org/
+Description: Cockpit admin interface for a system
+Description-md5: 305239ce7fcb5c6043156a1e54c69f73
+
+Package: cockpit-tests
+Architecture: armhf
+Version: 221.1-1~ubuntu20.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1431
+Provides: cockpit-test-assets
+Depends: libc6 (>= 2.4), libpam0g (>= 0.99.7.1), cockpit-system (>= 221.1-1~ubuntu20.04.1), openssh-client
+Conflicts: cockpit-test-assets
+Replaces: cockpit-test-assets
+Filename: pool/universe/c/cockpit/cockpit-tests_221.1-1~ubuntu20.04.1_armhf.deb
+Size: 723636
+MD5sum: e2b04f46f1ef27669ac27a84fd4834f2
+SHA1: bf8e1bcf1b87be5d7b30e2e174069be8128c1428
+SHA256: 96ef409f26018c6763ddbde459020afc58bc91cb0de7f95a40f2b88ee432b35e
+Homepage: https://cockpit-project.org/
+Description: Tests for Cockpit
+Description-md5: 0b4ed46aa862cd96d493b081c605101e
+
+Package: cockpit-ws
+Architecture: armhf
+Version: 221.1-1~ubuntu20.04.1
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2193
+Depends: libc6 (>= 2.28), libcrypt1 (>= 1:4.1.0), libglib2.0-0 (>= 2.39.4), libgnutls30 (>= 3.6.12), libgssapi-krb5-2 (>= 1.14+dfsg), libjson-glib-1.0-0 (>= 0.16.0), libkrb5-3 (>= 1.6.dfsg.2), libpam0g (>= 0.99.7.1), libsystemd0 (>= 237), glib-networking, adduser, openssl, systemd (>= 235)
+Suggests: sssd-dbus
+Conflicts: firewalld (<< 0.6.0)
+Filename: pool/universe/c/cockpit/cockpit-ws_221.1-1~ubuntu20.04.1_armhf.deb
+Size: 1283352
+MD5sum: 1ba1beb51589121c97dabf7f7b74baa2
+SHA1: 8e3c3d5c5e7df660e399b70a14c38a2117dee759
+SHA256: 8c32d305617912aa856124e7b41f9bde6a6057a98b20d36dc51d724dfe5571b4
+Homepage: https://cockpit-project.org/
+Description: Cockpit Web Service
+Description-md5: f492a869e15f8c92004032f384bce124
+

@@ -1,0 +1,1535 @@
+Package: libcuda1-384
+Description-md5: c6dbe40660b5059827bb841b3e8d47a1
+Description-en: Transitional package for nvidia-headless-390
+ This is a transitional package for nvidia-headless-390, and can be
+ safely removed after the installation is complete.
+
+Package: libnvidia-cfg1-390
+Description-md5: 7dce7edcd194e980223937b38f49e8b9
+Description-en: NVIDIA binary OpenGL/GLX configuration library
+ The NVIDIA binary driver provides optimized hardware acceleration of
+ OpenGL/GLX/EGL/GLES applications via a direct-rendering X Server
+ for graphics cards using NVIDIA chip sets.
+ .
+ This package contains the libnvidia-cfg.so.1 runtime library.
+
+Package: libnvidia-cfg1-430
+Description-md5: 256e72301d7fc5c3c4cf8334a94c7ed8
+Description-en: Transitional package for libnvidia-cfg1-440
+ This is a transitional package for libnvidia-cfg1-440, and can be
+ safely removed after the installation is complete.
+
+Package: libnvidia-cfg1-440
+Description-md5: 7dce7edcd194e980223937b38f49e8b9
+Description-en: NVIDIA binary OpenGL/GLX configuration library
+ The NVIDIA binary driver provides optimized hardware acceleration of
+ OpenGL/GLX/EGL/GLES applications via a direct-rendering X Server
+ for graphics cards using NVIDIA chip sets.
+ .
+ This package contains the libnvidia-cfg.so.1 runtime library.
+
+Package: libnvidia-common-390
+Description-md5: 259c61ba4e777f5a2f1e7ee2fd1957bc
+Description-en: Shared files used by the NVIDIA libraries
+ This package provides a set of files that are required by the NVIDIA
+ libraries.
+
+Package: libnvidia-common-430
+Description-md5: 50d23315518d9c84683cf238209aae6f
+Description-en: Transitional package for libnvidia-common-440
+ This is a transitional package for libnvidia-common-440, and can be
+ safely removed after the installation is complete.
+
+Package: libnvidia-common-440
+Description-md5: 259c61ba4e777f5a2f1e7ee2fd1957bc
+Description-en: Shared files used by the NVIDIA libraries
+ This package provides a set of files that are required by the NVIDIA
+ libraries.
+
+Package: libnvidia-compute-390
+Description-md5: c7c5b2d5b16b7e02eed65de795271363
+Description-en: NVIDIA libcompute package
+ This package provides a set of libraries which enable the NVIDIA driver
+ to use GPUs for parallel general purpose computation through CUDA and
+ OpenCL.
+
+Package: libnvidia-compute-430
+Description-md5: def87e4f9092a199357102693b13f4df
+Description-en: Transitional package for libnvidia-compute-440
+ This is a transitional package for libnvidia-compute-440, and can be
+ safely removed after the installation is complete.
+
+Package: libnvidia-compute-440
+Description-md5: c7c5b2d5b16b7e02eed65de795271363
+Description-en: NVIDIA libcompute package
+ This package provides a set of libraries which enable the NVIDIA driver
+ to use GPUs for parallel general purpose computation through CUDA and
+ OpenCL.
+
+Package: libnvidia-decode-390
+Description-md5: 82c3a05b45f86380632898c9b339df7a
+Description-en: NVIDIA Video Decoding runtime libraries
+ This package includes the NVIDIA CUDA Video Decoder (NVCUVID) library which
+ provides an interface to hardware video decoding capabilities on NVIDIA GPUs with CUDA.
+ .
+ The package also provides a VDPAU (Video Decode and Presentation API for Unix-like
+ systems) library for the NVIDIA vendor implementation.
+
+Package: libnvidia-decode-430
+Description-md5: cf06ede8af62b3afc1803eefa1b981fd
+Description-en: Transitional package for libnvidia-decode-440
+ This is a transitional package for libnvidia-decode-440, and can be
+ safely removed after the installation is complete.
+
+Package: libnvidia-decode-440
+Description-md5: 82c3a05b45f86380632898c9b339df7a
+Description-en: NVIDIA Video Decoding runtime libraries
+ This package includes the NVIDIA CUDA Video Decoder (NVCUVID) library which
+ provides an interface to hardware video decoding capabilities on NVIDIA GPUs with CUDA.
+ .
+ The package also provides a VDPAU (Video Decode and Presentation API for Unix-like
+ systems) library for the NVIDIA vendor implementation.
+
+Package: libnvidia-encode-390
+Description-md5: 21b4191ea88e49a7e948a2b89cfed901
+Description-en: NVENC Video Encoding runtime library
+ The NVENC Video Encoding library provides an interface to video encoder
+ hardware on supported NVIDIA GPUs.
+ .
+ This package contains the nvidia-encode runtime library.
+
+Package: libnvidia-encode-430
+Description-md5: c21683172ccbb731942e089dee375dfa
+Description-en: Transitional package for libnvidia-encode-440
+ This is a transitional package for libnvidia-encode-440, and can be
+ safely removed after the installation is complete.
+
+Package: libnvidia-encode-440
+Description-md5: 21b4191ea88e49a7e948a2b89cfed901
+Description-en: NVENC Video Encoding runtime library
+ The NVENC Video Encoding library provides an interface to video encoder
+ hardware on supported NVIDIA GPUs.
+ .
+ This package contains the nvidia-encode runtime library.
+
+Package: libnvidia-extra-440
+Description-md5: 0c26d83df4ea22dc17ba24c862fae8c7
+Description-en: Extra libraries for the NVIDIA driver
+ This package provides an additional set of libraries to be used with
+ the NVIDIA driver.
+
+Package: libnvidia-fbc1-390
+Description-md5: 19123a53d351a2e540ca869d1e74f9d2
+Description-en: NVIDIA OpenGL-based Framebuffer Capture runtime library
+ The NVIDIA OpenGL-based Framebuffer Capture (NvFBCOpenGL) library provides
+ a high performance, low latency interface to capture and optionally encode an
+ OpenGL framebuffer. NvFBCOpenGL is a private API that is only available to
+ approved partners for use in remote graphics scenarios.
+ .
+ This package contains the NvFBCOpenGL runtime library.
+
+Package: libnvidia-fbc1-430
+Description-md5: f13254b54b3665b444c5088846bf205d
+Description-en: Transitional package for libnvidia-fbc1-440
+ This is a transitional package for libnvidia-fbc1-440, and can be
+ safely removed after the installation is complete.
+
+Package: libnvidia-fbc1-440
+Description-md5: 19123a53d351a2e540ca869d1e74f9d2
+Description-en: NVIDIA OpenGL-based Framebuffer Capture runtime library
+ The NVIDIA OpenGL-based Framebuffer Capture (NvFBCOpenGL) library provides
+ a high performance, low latency interface to capture and optionally encode an
+ OpenGL framebuffer. NvFBCOpenGL is a private API that is only available to
+ approved partners for use in remote graphics scenarios.
+ .
+ This package contains the NvFBCOpenGL runtime library.
+
+Package: libnvidia-gl-390
+Description-md5: d899ab089124230e29489e7dcc9f137a
+Description-en: NVIDIA OpenGL/GLX/EGL/GLES GLVND libraries and Vulkan ICD
+ This package provides the NVIDIA OpenGL/GLX/EGL/GLES libraries and the
+ Vulkan ICD.
+
+Package: libnvidia-gl-430
+Description-md5: 57d8874f281f08a44bf8aa288f3a255c
+Description-en: Transitional package for libnvidia-gl-440
+ This is a transitional package for libnvidia-gl-440, and can be
+ safely removed after the installation is complete.
+
+Package: libnvidia-gl-440
+Description-md5: d899ab089124230e29489e7dcc9f137a
+Description-en: NVIDIA OpenGL/GLX/EGL/GLES GLVND libraries and Vulkan ICD
+ This package provides the NVIDIA OpenGL/GLX/EGL/GLES libraries and the
+ Vulkan ICD.
+
+Package: libnvidia-ifr1-390
+Description-md5: ed00f275619e715136fe0176e6f7fd69
+Description-en: NVIDIA OpenGL-based Inband Frame Readback runtime library
+ The NVIDIA OpenGL-based Inband Frame Readback (NvIFROpenGL) library provides
+ a high performance, low latency interface to capture and optionally encode an
+ OpenGL framebuffer. NvIFROpenGL is a private API that is only available to
+ approved partners for use in remote graphics scenarios.
+ .
+ This package contains the NvIFROpenGL runtime library.
+
+Package: libnvidia-ifr1-430
+Description-md5: 64f10c1d3769b0f5e6083f8d7efc32b4
+Description-en: Transitional package for libnvidia-ifr1-440
+ This is a transitional package for libnvidia-ifr1-440, and can be
+ safely removed after the installation is complete.
+
+Package: libnvidia-ifr1-440
+Description-md5: ed00f275619e715136fe0176e6f7fd69
+Description-en: NVIDIA OpenGL-based Inband Frame Readback runtime library
+ The NVIDIA OpenGL-based Inband Frame Readback (NvIFROpenGL) library provides
+ a high performance, low latency interface to capture and optionally encode an
+ OpenGL framebuffer. NvIFROpenGL is a private API that is only available to
+ approved partners for use in remote graphics scenarios.
+ .
+ This package contains the NvIFROpenGL runtime library.
+
+Package: linux-modules-nvidia-390-5.4.0-1011-aws
+Description-md5: d585e3d830c771538dc0d5da34c11144
+Description-en: Linux kernel nvidia modules for version 5.4.0-1011
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1011.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-aws* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-390-5.4.0-1011-gcp
+Description-md5: f76be1cf7b2d60a281e51660cc3fa847
+Description-en: Linux kernel nvidia modules for version 5.4.0-1011
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1011.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-gcp* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-390-5.4.0-1011-oracle
+Description-md5: 7db18663e6aa5ba46b1c56e846a0c98d
+Description-en: Linux kernel nvidia modules for version 5.4.0-1011
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1011.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-oracle* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-390-5.4.0-1012-azure
+Description-md5: 324ce668ce10b9f77cc643ef46905f00
+Description-en: Linux kernel nvidia modules for version 5.4.0-1012
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1012.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-azure* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-390-5.4.0-1015-aws
+Description-md5: d836fd6a712ea2efd5dbd74d7758b85b
+Description-en: Linux kernel nvidia modules for version 5.4.0-1015
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1015.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-aws* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-390-5.4.0-1015-gcp
+Description-md5: 3d1fc7c98b68772701c160816b9f764e
+Description-en: Linux kernel nvidia modules for version 5.4.0-1015
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1015.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-gcp* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-390-5.4.0-1015-oracle
+Description-md5: 3717df8957830609407c80fd68c4c31e
+Description-en: Linux kernel nvidia modules for version 5.4.0-1015
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1015.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-oracle* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-390-5.4.0-1016-azure
+Description-md5: 09d69de8e79617f5cb2bc01d79b4c9a3
+Description-en: Linux kernel nvidia modules for version 5.4.0-1016
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1016.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-azure* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-390-5.4.0-1017-aws
+Description-md5: c080bffdfad677286ef1614f3f60477a
+Description-en: Linux kernel nvidia modules for version 5.4.0-1017
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1017.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-aws* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-390-5.4.0-1018-aws
+Description-md5: edf64761fea126cf1297fe5bbaba3f90
+Description-en: Linux kernel nvidia modules for version 5.4.0-1018
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1018.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-aws* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-390-5.4.0-1018-gcp
+Description-md5: 65970baefb68577000bc8be86a3dbe34
+Description-en: Linux kernel nvidia modules for version 5.4.0-1018
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1018.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-gcp* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-390-5.4.0-1018-oracle
+Description-md5: c12db1b6f2f54c674f0406003d1f46ad
+Description-en: Linux kernel nvidia modules for version 5.4.0-1018
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1018.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-oracle* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-390-5.4.0-1019-azure
+Description-md5: d81bd68e614b041c97c5132aa1c51a03
+Description-en: Linux kernel nvidia modules for version 5.4.0-1019
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1019.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-azure* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-390-5.4.0-1019-gcp
+Description-md5: 521e22cb2fb934f5fc1efc361bfe33e7
+Description-en: Linux kernel nvidia modules for version 5.4.0-1019
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1019.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-gcp* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-390-5.4.0-1019-oracle
+Description-md5: 6f9408f3c4e5cbbb82b163b5a9539b3c
+Description-en: Linux kernel nvidia modules for version 5.4.0-1019
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1019.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-oracle* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-390-5.4.0-28-generic
+Description-md5: 35aa3333f4dcbd72f0e600a3982cc10a
+Description-en: Linux kernel nvidia modules for version 5.4.0-28
+ This package contains the Linux kernel nvidia modules for version 5.4.0-28.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ linux-image-nvidia-FLAVOUR meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-nvidia-390-5.4.0-28-lowlatency
+Description-md5: 35aa3333f4dcbd72f0e600a3982cc10a
+Description-en: Linux kernel nvidia modules for version 5.4.0-28
+ This package contains the Linux kernel nvidia modules for version 5.4.0-28.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ linux-image-nvidia-FLAVOUR meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-nvidia-390-5.4.0-29-generic
+Description-md5: 8c6b3c81aa718521eca1cd5cfd489ae9
+Description-en: Linux kernel nvidia modules for version 5.4.0-29
+ This package contains the Linux kernel nvidia modules for version 5.4.0-29.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-generic* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-390-5.4.0-29-lowlatency
+Description-md5: 9b01a1465bcd8148f16ba341f1253bf7
+Description-en: Linux kernel nvidia modules for version 5.4.0-29
+ This package contains the Linux kernel nvidia modules for version 5.4.0-29.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-lowlatency* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-390-5.4.0-31-generic
+Description-md5: 4b69a6aa802b1d4cdf1db032879b85da
+Description-en: Linux kernel nvidia modules for version 5.4.0-31
+ This package contains the Linux kernel nvidia modules for version 5.4.0-31.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-generic* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-390-5.4.0-31-lowlatency
+Description-md5: 75e6ab98ae86ef31f0ae2e542b946031
+Description-en: Linux kernel nvidia modules for version 5.4.0-31
+ This package contains the Linux kernel nvidia modules for version 5.4.0-31.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-lowlatency* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-390-5.4.0-33-generic
+Description-md5: d4e8dfd77a79728e1d451472491bc24c
+Description-en: Linux kernel nvidia modules for version 5.4.0-33
+ This package contains the Linux kernel nvidia modules for version 5.4.0-33.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-generic* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-390-5.4.0-33-lowlatency
+Description-md5: 917f0e959dcbfafecca997c90e691515
+Description-en: Linux kernel nvidia modules for version 5.4.0-33
+ This package contains the Linux kernel nvidia modules for version 5.4.0-33.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-lowlatency* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-390-5.4.0-37-generic
+Description-md5: 12a70c4c91f9518ebb98f1a364c1c324
+Description-en: Linux kernel nvidia modules for version 5.4.0-37
+ This package contains the Linux kernel nvidia modules for version 5.4.0-37.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-generic* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-390-5.4.0-37-lowlatency
+Description-md5: e2f79cb639eec4a7f6b35e12764c2adc
+Description-en: Linux kernel nvidia modules for version 5.4.0-37
+ This package contains the Linux kernel nvidia modules for version 5.4.0-37.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-lowlatency* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-390-5.4.0-39-generic
+Description-md5: 880378ea87617129edbd2a2b6f7c7e66
+Description-en: Linux kernel nvidia modules for version 5.4.0-39
+ This package contains the Linux kernel nvidia modules for version 5.4.0-39.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-generic* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-390-5.4.0-39-lowlatency
+Description-md5: 70dcad617b06ada48861615bf8391e36
+Description-en: Linux kernel nvidia modules for version 5.4.0-39
+ This package contains the Linux kernel nvidia modules for version 5.4.0-39.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-lowlatency* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-390-5.4.0-40-generic
+Description-md5: 37c7941efbbfd0c5a2c9b1ccee5a8445
+Description-en: Linux kernel nvidia modules for version 5.4.0-40
+ This package contains the Linux kernel nvidia modules for version 5.4.0-40.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-generic* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-390-5.4.0-40-lowlatency
+Description-md5: 70f9c9250dbf13c851f1ccda1eb41ebb
+Description-en: Linux kernel nvidia modules for version 5.4.0-40
+ This package contains the Linux kernel nvidia modules for version 5.4.0-40.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-lowlatency* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-390-aws
+Description-md5: 3db35d39378b02ecd629e28df820e061
+Description-en: Extra drivers for nvidia-390 for aws
+ Install extra signed nvidia-390 modules compatible with
+ aws
+
+Package: linux-modules-nvidia-390-azure
+Description-md5: 4018528e538ec6378a50fcc856e767a9
+Description-en: Extra drivers for nvidia-390 for azure
+ Install extra signed nvidia-390 modules compatible with
+ azure
+
+Package: linux-modules-nvidia-390-gcp
+Description-md5: 99d5a7c8c103d62e28de41b2c971e1ba
+Description-en: Extra drivers for nvidia-390 for gcp
+ Install extra signed nvidia-390 modules compatible with
+ gcp
+
+Package: linux-modules-nvidia-390-generic
+Description-md5: bcb23d260157c1441764c103889d6644
+Description-en: Extra drivers for nvidia-390 for generic
+ Install extra signed nvidia-390 modules compatible with
+ generic
+
+Package: linux-modules-nvidia-390-generic-hwe-20.04
+Description-md5: 2a320d18128fb3fbe7df5716845552cf
+Description-en: Extra drivers for nvidia-390 for generic-hwe-20.04
+ Install extra signed nvidia-390 modules compatible with
+ generic-hwe-20.04
+
+Package: linux-modules-nvidia-390-lowlatency
+Description-md5: 3360d43a70b67c3b167921a09bdc248d
+Description-en: Extra drivers for nvidia-390 for lowlatency
+ Install extra signed nvidia-390 modules compatible with
+ lowlatency
+
+Package: linux-modules-nvidia-390-lowlatency-hwe-20.04
+Description-md5: 9141b9b5355969a207f9d8bf3c9d7531
+Description-en: Extra drivers for nvidia-390 for lowlatency-hwe-20.04
+ Install extra signed nvidia-390 modules compatible with
+ lowlatency-hwe-20.04
+
+Package: linux-modules-nvidia-390-oem
+Description-md5: 1221f30d32cfcd5a4492e98017e153d1
+Description-en: Extra drivers for nvidia-390 for the generic flavour (dummy transitional package)
+ Transitional package for upgrades from linux-oem to generic
+
+Package: linux-modules-nvidia-390-oem-osp1
+Description-md5: 16d98be0db69051f6616c75faa8ac587
+Description-en: Extra drivers for nvidia-390 for the generic flavour (dummy transitional package)
+ Transitional package for upgrades from linux-oem-osp1 to generic
+
+Package: linux-modules-nvidia-390-oracle
+Description-md5: c28b40f1f363526041fd51b47f6945d5
+Description-en: Extra drivers for nvidia-390 for oracle
+ Install extra signed nvidia-390 modules compatible with
+ oracle
+
+Package: linux-modules-nvidia-418-oem
+Description-md5: 00e43ab67bcdd89f9da36d65694e2ff9
+Description-en: Extra drivers for nvidia-418 for the generic flavour (dummy transitional package)
+ Transitional package for upgrades from linux-oem to generic
+
+Package: linux-modules-nvidia-418-oem-osp1
+Description-md5: 670d8e4b2651ee8c8dafaad799d12a50
+Description-en: Extra drivers for nvidia-418 for the generic flavour (dummy transitional package)
+ Transitional package for upgrades from linux-oem-osp1 to generic
+
+Package: linux-modules-nvidia-430-aws
+Description-md5: b7240c7c5e2a34ba60aaffaa372d362e
+Description-en: Extra drivers for nvidia-430 for the aws flavour (dummy transitional package)
+ Transitional package for upgrades of -430 to -440.
+
+Package: linux-modules-nvidia-430-azure
+Description-md5: 508c8d2fa6add2c3f6e19e0d99a00ea6
+Description-en: Extra drivers for nvidia-430 for the azure flavour (dummy transitional package)
+ Transitional package for upgrades of -430 to -440.
+
+Package: linux-modules-nvidia-430-gcp
+Description-md5: 55d53b90ef0bc558bd6ee77da99df1a4
+Description-en: Extra drivers for nvidia-430 for the gcp flavour (dummy transitional package)
+ Transitional package for upgrades of -430 to -440.
+
+Package: linux-modules-nvidia-430-generic
+Description-md5: c97cb15a721825690399e76b116f5821
+Description-en: Extra drivers for nvidia-430 for the generic flavour (dummy transitional package)
+ Transitional package for upgrades of -430 to -440.
+
+Package: linux-modules-nvidia-430-lowlatency
+Description-md5: c97cb15a721825690399e76b116f5821
+Description-en: Extra drivers for nvidia-430 for the generic flavour (dummy transitional package)
+ Transitional package for upgrades of -430 to -440.
+
+Package: linux-modules-nvidia-430-oracle
+Description-md5: d0641c9ee1652214c8aceb6e02de4982
+Description-en: Extra drivers for nvidia-430 for the oracle flavour (dummy transitional package)
+ Transitional package for upgrades of -430 to -440.
+
+Package: linux-modules-nvidia-435-5.4.0-1011-aws
+Description-md5: 4b2e6e417bd8bef5e106d9b0469ac39c
+Description-en: Linux kernel nvidia modules for version 5.4.0-1011
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1011.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-435-aws* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-435-5.4.0-1011-gcp
+Description-md5: 881353d43f9ca8074af54dcca174f0c4
+Description-en: Linux kernel nvidia modules for version 5.4.0-1011
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1011.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-435-gcp* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-435-5.4.0-1011-oracle
+Description-md5: 1ab876f959da32fad2ffaf43af40c6b2
+Description-en: Linux kernel nvidia modules for version 5.4.0-1011
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1011.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-435-oracle* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-435-5.4.0-1012-azure
+Description-md5: 820462944a97e643b4dc90b4f6ab0fd7
+Description-en: Linux kernel nvidia modules for version 5.4.0-1012
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1012.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-435-azure* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-435-5.4.0-1015-aws
+Description-md5: d1bc7dd4001c63a5b795a9e5fbbcfc72
+Description-en: Linux kernel nvidia modules for version 5.4.0-1015
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1015.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-435-aws* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-435-5.4.0-1015-gcp
+Description-md5: f2e718e155903f85477ca3164fef5da9
+Description-en: Linux kernel nvidia modules for version 5.4.0-1015
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1015.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-435-gcp* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-435-5.4.0-1015-oracle
+Description-md5: 70aa6f72abefbd496a897ca4cec6b7bf
+Description-en: Linux kernel nvidia modules for version 5.4.0-1015
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1015.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-435-oracle* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-435-5.4.0-1016-azure
+Description-md5: 5226dd70ed3bec434a7eefca48e0b92a
+Description-en: Linux kernel nvidia modules for version 5.4.0-1016
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1016.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-435-azure* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-435-5.4.0-1017-aws
+Description-md5: 36dc3db16ee8184ba2e67dc159afb4f0
+Description-en: Linux kernel nvidia modules for version 5.4.0-1017
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1017.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-435-aws* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-435-5.4.0-1018-aws
+Description-md5: 9913bf9d564272fa3d5c1e27da8fa554
+Description-en: Linux kernel nvidia modules for version 5.4.0-1018
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1018.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-435-aws* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-435-5.4.0-1018-gcp
+Description-md5: 480ab1ab43628cb5962ae826246c5f2c
+Description-en: Linux kernel nvidia modules for version 5.4.0-1018
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1018.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-435-gcp* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-435-5.4.0-1018-oracle
+Description-md5: 8421334ed0961a7cd8e295d6edcc071c
+Description-en: Linux kernel nvidia modules for version 5.4.0-1018
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1018.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-435-oracle* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-435-5.4.0-1019-azure
+Description-md5: 5f941cae635f76dcd7b9133c204e3ec8
+Description-en: Linux kernel nvidia modules for version 5.4.0-1019
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1019.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-435-azure* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-435-5.4.0-1019-gcp
+Description-md5: 9a15e0a2605f767b2afe5d35c0025e03
+Description-en: Linux kernel nvidia modules for version 5.4.0-1019
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1019.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-435-gcp* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-435-5.4.0-1019-oracle
+Description-md5: 5405820d2b444b67ccae58ee8376cb94
+Description-en: Linux kernel nvidia modules for version 5.4.0-1019
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1019.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-435-oracle* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-435-5.4.0-29-generic
+Description-md5: 65df5f6ec5c52daea8b238fbbd257ad2
+Description-en: Linux kernel nvidia modules for version 5.4.0-29
+ This package contains the Linux kernel nvidia modules for version 5.4.0-29.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-435-generic* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-435-5.4.0-29-lowlatency
+Description-md5: e612a982e03755ca72c7bbd7679d2d6a
+Description-en: Linux kernel nvidia modules for version 5.4.0-29
+ This package contains the Linux kernel nvidia modules for version 5.4.0-29.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-435-lowlatency* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-435-5.4.0-31-generic
+Description-md5: 2c8388d7eb378c6401d6b96111f03f7e
+Description-en: Linux kernel nvidia modules for version 5.4.0-31
+ This package contains the Linux kernel nvidia modules for version 5.4.0-31.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-435-generic* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-435-5.4.0-31-lowlatency
+Description-md5: 712e34e4d8e9e4f6b59b8c4bc05db00c
+Description-en: Linux kernel nvidia modules for version 5.4.0-31
+ This package contains the Linux kernel nvidia modules for version 5.4.0-31.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-435-lowlatency* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-435-5.4.0-33-generic
+Description-md5: 8b5e41050e11a9ecc394d8a02fd8969b
+Description-en: Linux kernel nvidia modules for version 5.4.0-33
+ This package contains the Linux kernel nvidia modules for version 5.4.0-33.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-435-generic* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-435-5.4.0-33-lowlatency
+Description-md5: 5374ff42365837f112910d91ac5197c8
+Description-en: Linux kernel nvidia modules for version 5.4.0-33
+ This package contains the Linux kernel nvidia modules for version 5.4.0-33.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-435-lowlatency* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-435-5.4.0-37-generic
+Description-md5: 061db8a273ef975bbdf46253e05756b6
+Description-en: Linux kernel nvidia modules for version 5.4.0-37
+ This package contains the Linux kernel nvidia modules for version 5.4.0-37.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-435-generic* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-435-5.4.0-37-lowlatency
+Description-md5: 036e540eba750c11bc0ee2ca992bf242
+Description-en: Linux kernel nvidia modules for version 5.4.0-37
+ This package contains the Linux kernel nvidia modules for version 5.4.0-37.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-435-lowlatency* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-435-5.4.0-39-generic
+Description-md5: 3db3019776a760e894d02a4e4cf5d23c
+Description-en: Linux kernel nvidia modules for version 5.4.0-39
+ This package contains the Linux kernel nvidia modules for version 5.4.0-39.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-435-generic* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-435-5.4.0-39-lowlatency
+Description-md5: de395dcc4555ce94ec7903bc8e420a03
+Description-en: Linux kernel nvidia modules for version 5.4.0-39
+ This package contains the Linux kernel nvidia modules for version 5.4.0-39.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-435-lowlatency* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-435-5.4.0-40-generic
+Description-md5: bf0bf3bd3cd17dd10039cf834c5c9ee9
+Description-en: Linux kernel nvidia modules for version 5.4.0-40
+ This package contains the Linux kernel nvidia modules for version 5.4.0-40.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-435-generic* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-435-5.4.0-40-lowlatency
+Description-md5: 453eef65fb5fd0683ec3976e3e1e2661
+Description-en: Linux kernel nvidia modules for version 5.4.0-40
+ This package contains the Linux kernel nvidia modules for version 5.4.0-40.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-435-lowlatency* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-435-aws
+Description-md5: 49defcfe4b7aba751d278539f43b91c9
+Description-en: Extra drivers for nvidia-435 for aws
+ Install extra signed nvidia-435 modules compatible with
+ aws
+
+Package: linux-modules-nvidia-435-azure
+Description-md5: fce244d5f7fd434cf3695f4819731a1a
+Description-en: Extra drivers for nvidia-435 for azure
+ Install extra signed nvidia-435 modules compatible with
+ azure
+
+Package: linux-modules-nvidia-435-gcp
+Description-md5: 387dba64a06c1a8ab1956f159ce1c198
+Description-en: Extra drivers for nvidia-435 for gcp
+ Install extra signed nvidia-435 modules compatible with
+ gcp
+
+Package: linux-modules-nvidia-435-generic
+Description-md5: 5e5fde05a0037f31602b48284560e770
+Description-en: Extra drivers for nvidia-435 for generic
+ Install extra signed nvidia-435 modules compatible with
+ generic
+
+Package: linux-modules-nvidia-435-generic-hwe-20.04
+Description-md5: 2f8e19b3dd11ec63cb839436c98cfc14
+Description-en: Extra drivers for nvidia-435 for generic-hwe-20.04
+ Install extra signed nvidia-435 modules compatible with
+ generic-hwe-20.04
+
+Package: linux-modules-nvidia-435-lowlatency
+Description-md5: e2ae9863253d5320381f59dade18eebe
+Description-en: Extra drivers for nvidia-435 for lowlatency
+ Install extra signed nvidia-435 modules compatible with
+ lowlatency
+
+Package: linux-modules-nvidia-435-lowlatency-hwe-20.04
+Description-md5: c255d5635523417d0492b4dbf0017503
+Description-en: Extra drivers for nvidia-435 for lowlatency-hwe-20.04
+ Install extra signed nvidia-435 modules compatible with
+ lowlatency-hwe-20.04
+
+Package: linux-modules-nvidia-435-oracle
+Description-md5: c567471d6df7e22eb853fb2fd48aae90
+Description-en: Extra drivers for nvidia-435 for oracle
+ Install extra signed nvidia-435 modules compatible with
+ oracle
+
+Package: linux-modules-nvidia-440-5.4.0-1011-aws
+Description-md5: db4a5a6c3d43923c91d6bc5158b18d4a
+Description-en: Linux kernel nvidia modules for version 5.4.0-1011
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1011.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-440-aws* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-440-5.4.0-1011-gcp
+Description-md5: 9757b7d87a6de721acfa883cebaa5f60
+Description-en: Linux kernel nvidia modules for version 5.4.0-1011
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1011.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-440-gcp* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-440-5.4.0-1011-oracle
+Description-md5: cc3d6ed59489abd44d0fd6152e0e266b
+Description-en: Linux kernel nvidia modules for version 5.4.0-1011
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1011.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-440-oracle* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-440-5.4.0-1012-azure
+Description-md5: f1710a47a7e454ca9849c0cc0dff43ce
+Description-en: Linux kernel nvidia modules for version 5.4.0-1012
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1012.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-440-azure* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-440-5.4.0-1015-aws
+Description-md5: f0d1c088628a3230390fa9c3de1c62ed
+Description-en: Linux kernel nvidia modules for version 5.4.0-1015
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1015.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-440-aws* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-440-5.4.0-1015-gcp
+Description-md5: cee76f7fba53e6cedded04dfc67a9459
+Description-en: Linux kernel nvidia modules for version 5.4.0-1015
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1015.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-440-gcp* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-440-5.4.0-1015-oracle
+Description-md5: 97ce8ce41349930f1f47c4430e877222
+Description-en: Linux kernel nvidia modules for version 5.4.0-1015
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1015.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-440-oracle* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-440-5.4.0-1016-azure
+Description-md5: b78dc1539736fc32600a8358ce5b7e9c
+Description-en: Linux kernel nvidia modules for version 5.4.0-1016
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1016.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-440-azure* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-440-5.4.0-1017-aws
+Description-md5: 86e85b91f56a84e3c259c35b919080f0
+Description-en: Linux kernel nvidia modules for version 5.4.0-1017
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1017.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-440-aws* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-440-5.4.0-1018-aws
+Description-md5: 578bb40178216cd4a493f5de89e3467d
+Description-en: Linux kernel nvidia modules for version 5.4.0-1018
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1018.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-440-aws* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-440-5.4.0-1018-gcp
+Description-md5: 9c0bd5d47370792f4bd3af6ef94d2e29
+Description-en: Linux kernel nvidia modules for version 5.4.0-1018
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1018.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-440-gcp* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-440-5.4.0-1018-oracle
+Description-md5: f54f331b7d763a2fd268c95d2c7314b8
+Description-en: Linux kernel nvidia modules for version 5.4.0-1018
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1018.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-440-oracle* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-440-5.4.0-1019-azure
+Description-md5: 3d6010a51b90abd493e7ced3e5e97d03
+Description-en: Linux kernel nvidia modules for version 5.4.0-1019
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1019.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-440-azure* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-440-5.4.0-1019-gcp
+Description-md5: 4d002caec662be081c0318ef6f84fc6c
+Description-en: Linux kernel nvidia modules for version 5.4.0-1019
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1019.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-440-gcp* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-440-5.4.0-1019-oracle
+Description-md5: 06681bda6d948d27f0ceda7203bb1cb3
+Description-en: Linux kernel nvidia modules for version 5.4.0-1019
+ This package contains the Linux kernel nvidia modules for version 5.4.0-1019.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-440-oracle* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-440-5.4.0-28-generic
+Description-md5: 35aa3333f4dcbd72f0e600a3982cc10a
+Description-en: Linux kernel nvidia modules for version 5.4.0-28
+ This package contains the Linux kernel nvidia modules for version 5.4.0-28.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ linux-image-nvidia-FLAVOUR meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-nvidia-440-5.4.0-28-lowlatency
+Description-md5: 35aa3333f4dcbd72f0e600a3982cc10a
+Description-en: Linux kernel nvidia modules for version 5.4.0-28
+ This package contains the Linux kernel nvidia modules for version 5.4.0-28.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ linux-image-nvidia-FLAVOUR meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-nvidia-440-5.4.0-29-generic
+Description-md5: 3a667b2ccb0300b79d1adbb0be692208
+Description-en: Linux kernel nvidia modules for version 5.4.0-29
+ This package contains the Linux kernel nvidia modules for version 5.4.0-29.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-440-generic* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-440-5.4.0-29-lowlatency
+Description-md5: 736ba150351d1fe38b031666c3d3468f
+Description-en: Linux kernel nvidia modules for version 5.4.0-29
+ This package contains the Linux kernel nvidia modules for version 5.4.0-29.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-440-lowlatency* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-440-5.4.0-31-generic
+Description-md5: 6e21b5c062a3f7abffd2d0337aa4dac5
+Description-en: Linux kernel nvidia modules for version 5.4.0-31
+ This package contains the Linux kernel nvidia modules for version 5.4.0-31.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-440-generic* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-440-5.4.0-31-lowlatency
+Description-md5: 541c73c77a44ce53b05ac92b49c12433
+Description-en: Linux kernel nvidia modules for version 5.4.0-31
+ This package contains the Linux kernel nvidia modules for version 5.4.0-31.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-440-lowlatency* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-440-5.4.0-33-generic
+Description-md5: 971bd317062b0df3214d7cd93352d976
+Description-en: Linux kernel nvidia modules for version 5.4.0-33
+ This package contains the Linux kernel nvidia modules for version 5.4.0-33.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-440-generic* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-440-5.4.0-33-lowlatency
+Description-md5: cebb5be01af1a64b088e64aaaa16c527
+Description-en: Linux kernel nvidia modules for version 5.4.0-33
+ This package contains the Linux kernel nvidia modules for version 5.4.0-33.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-440-lowlatency* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-440-5.4.0-37-generic
+Description-md5: 29d452ea7f6ff79cecc2e6afca7b1d6b
+Description-en: Linux kernel nvidia modules for version 5.4.0-37
+ This package contains the Linux kernel nvidia modules for version 5.4.0-37.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-440-generic* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-440-5.4.0-37-lowlatency
+Description-md5: b7610ba6aaa730a539df57c588bf19d8
+Description-en: Linux kernel nvidia modules for version 5.4.0-37
+ This package contains the Linux kernel nvidia modules for version 5.4.0-37.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-440-lowlatency* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-440-5.4.0-39-generic
+Description-md5: 6791ff99227f0f75ed9ad3389c0a9d1e
+Description-en: Linux kernel nvidia modules for version 5.4.0-39
+ This package contains the Linux kernel nvidia modules for version 5.4.0-39.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-440-generic* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-440-5.4.0-39-lowlatency
+Description-md5: 914f508c596923cfd4f7ffe8215c7a47
+Description-en: Linux kernel nvidia modules for version 5.4.0-39
+ This package contains the Linux kernel nvidia modules for version 5.4.0-39.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-440-lowlatency* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-440-5.4.0-40-generic
+Description-md5: 6e02e233bd475fd5f70b4158cef09607
+Description-en: Linux kernel nvidia modules for version 5.4.0-40
+ This package contains the Linux kernel nvidia modules for version 5.4.0-40.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-440-generic* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-440-5.4.0-40-lowlatency
+Description-md5: 9885006b20808d567412871e91bfce1f
+Description-en: Linux kernel nvidia modules for version 5.4.0-40
+ This package contains the Linux kernel nvidia modules for version 5.4.0-40.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-440-lowlatency* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-440-5.6.0-1008-oem
+Description-md5: 6b6efb78b3c10b97d20a1ac443ef308f
+Description-en: Linux kernel nvidia modules for version 5.6.0-1008
+ This package contains the Linux kernel nvidia modules for version 5.6.0-1008.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ linux-image-nvidia-FLAVOUR meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-nvidia-440-5.6.0-1010-oem
+Description-md5: 778384bf12922c4c69e2a360247cc23c
+Description-en: Linux kernel nvidia modules for version 5.6.0-1010
+ This package contains the Linux kernel nvidia modules for version 5.6.0-1010.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ linux-image-nvidia-FLAVOUR meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-nvidia-440-5.6.0-1011-oem
+Description-md5: c121832d3cfe0f8fa3130fbb22d6da09
+Description-en: Linux kernel nvidia modules for version 5.6.0-1011
+ This package contains the Linux kernel nvidia modules for version 5.6.0-1011.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ linux-image-nvidia-FLAVOUR meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-nvidia-440-5.6.0-1013-oem
+Description-md5: b8fc05f73566815a886d887f25e78e69
+Description-en: Linux kernel nvidia modules for version 5.6.0-1013
+ This package contains the Linux kernel nvidia modules for version 5.6.0-1013.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ linux-image-nvidia-FLAVOUR meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-nvidia-440-5.6.0-1017-oem
+Description-md5: 9c1903f3737c73f79ae37c4c3d8ab9d0
+Description-en: Linux kernel nvidia modules for version 5.6.0-1017
+ This package contains the Linux kernel nvidia modules for version 5.6.0-1017.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ linux-image-nvidia-FLAVOUR meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-nvidia-440-5.6.0-1018-oem
+Description-md5: 0633024da9102caf98a3913618037ec9
+Description-en: Linux kernel nvidia modules for version 5.6.0-1018
+ This package contains the Linux kernel nvidia modules for version 5.6.0-1018.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ linux-image-nvidia-FLAVOUR meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-nvidia-440-aws
+Description-md5: 689c7cc84ff781c55d142b223f9554a9
+Description-en: Extra drivers for nvidia-440 for aws
+ Install extra signed nvidia-440 modules compatible with
+ aws
+
+Package: linux-modules-nvidia-440-azure
+Description-md5: a9a4b5cc581edef2185f0551f1056b75
+Description-en: Extra drivers for nvidia-440 for azure
+ Install extra signed nvidia-440 modules compatible with
+ azure
+
+Package: linux-modules-nvidia-440-gcp
+Description-md5: 85d941c45f944f1a6f0dddcacb008d5c
+Description-en: Extra drivers for nvidia-440 for gcp
+ Install extra signed nvidia-440 modules compatible with
+ gcp
+
+Package: linux-modules-nvidia-440-generic
+Description-md5: afdc71929183fc33f062196281b27496
+Description-en: Extra drivers for nvidia-440 for generic
+ Install extra signed nvidia-440 modules compatible with
+ generic
+
+Package: linux-modules-nvidia-440-generic-hwe-20.04
+Description-md5: 1288ee5e4e810b54f969d2e6ad0e43d9
+Description-en: Extra drivers for nvidia-440 for generic-hwe-20.04
+ Install extra signed nvidia-440 modules compatible with
+ generic-hwe-20.04
+
+Package: linux-modules-nvidia-440-lowlatency
+Description-md5: aa188dc64f408bece7fdd053b7a9e647
+Description-en: Extra drivers for nvidia-440 for lowlatency
+ Install extra signed nvidia-440 modules compatible with
+ lowlatency
+
+Package: linux-modules-nvidia-440-lowlatency-hwe-20.04
+Description-md5: 764999f0c52a589f0ba1e3b20a24035b
+Description-en: Extra drivers for nvidia-440 for lowlatency-hwe-20.04
+ Install extra signed nvidia-440 modules compatible with
+ lowlatency-hwe-20.04
+
+Package: linux-modules-nvidia-440-oem-20.04
+Description-md5: bf9311d360ef83135fc6fb86e79343de
+Description-en: Extra drivers for nvidia-440 for the OEM flavour
+ Install extra signed nvidia-440 modules compatible with the OEM flavour.
+
+Package: linux-modules-nvidia-440-oracle
+Description-md5: 857909378be753a2291b6cfac4e244f3
+Description-en: Extra drivers for nvidia-440 for oracle
+ Install extra signed nvidia-440 modules compatible with
+ oracle
+
+Package: nvidia-384
+Description-md5: 5e7381ee8cd139d587750b38f0b51589
+Description-en: Transitional package for nvidia-driver-390
+ This is a transitional package for nvidia-driver-390, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-384-dev
+Description-md5: 5e7381ee8cd139d587750b38f0b51589
+Description-en: Transitional package for nvidia-driver-390
+ This is a transitional package for nvidia-driver-390, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-compute-utils-390
+Description-md5: bf6fab9efc1024a52f79dd543478f871
+Description-en: NVIDIA compute utilities
+ This package provides utility binaries for paraller general purpose
+ computing use cases with the NVIDIA driver.
+ .
+ CUDA MPS is a feature that allows multiple CUDA processes to share a single
+ GPU context. CUDA MPS should be transparent to CUDA programs.
+ .
+ CUDA MPS requires a device that supports Unified Virtual Address (UVA) and
+ has compute capability SM 3.5 or higher.
+ Pre-CUDA 4.0 APIs are not supported under CUDA MPS.
+
+Package: nvidia-compute-utils-430
+Description-md5: c12e0e30657359fae999c5f159fd083a
+Description-en: Transitional package for nvidia-compute-utils-440
+ This is a transitional package for nvidia-compute-utils-440, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-compute-utils-440
+Description-md5: bf6fab9efc1024a52f79dd543478f871
+Description-en: NVIDIA compute utilities
+ This package provides utility binaries for paraller general purpose
+ computing use cases with the NVIDIA driver.
+ .
+ CUDA MPS is a feature that allows multiple CUDA processes to share a single
+ GPU context. CUDA MPS should be transparent to CUDA programs.
+ .
+ CUDA MPS requires a device that supports Unified Virtual Address (UVA) and
+ has compute capability SM 3.5 or higher.
+ Pre-CUDA 4.0 APIs are not supported under CUDA MPS.
+
+Package: nvidia-dkms-390
+Description-md5: ec8c193060b5458922cc0bda62df7796
+Description-en: NVIDIA DKMS package
+ This package builds the NVIDIA kernel module needed by the userspace
+ driver, using DKMS.
+ Provided that you have the kernel header packages installed, the kernel
+ module will be built for your running kernel, and automatically rebuilt for
+ any new kernel headers that are installed.
+
+Package: nvidia-dkms-430
+Description-md5: 5c83bdcca0d585b076eb478732f29e90
+Description-en: Transitional package for nvidia-dkms-440
+ This is a transitional package for nvidia-dkms-440, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-dkms-440
+Description-md5: ec8c193060b5458922cc0bda62df7796
+Description-en: NVIDIA DKMS package
+ This package builds the NVIDIA kernel module needed by the userspace
+ driver, using DKMS.
+ Provided that you have the kernel header packages installed, the kernel
+ module will be built for your running kernel, and automatically rebuilt for
+ any new kernel headers that are installed.
+
+Package: nvidia-driver-390
+Description-md5: 814a7c3076594296e6ee2a9c3d826740
+Description-en: NVIDIA driver metapackage
+ This metapackage depends on the NVIDIA binary driver and on all of its libraries,
+ to provide hardware acceleration for OpenGL/GLX/EGL/GLES/Vulkan
+ applications on either X11 or on Wayland.
+ .
+ See /usr/share/doc/nvidia-driver-390/README.txt.gz
+ for a complete list of supported GPUs and PCI IDs.
+
+Package: nvidia-driver-430
+Description-md5: 1553c698471d680950a9468f2b9591a3
+Description-en: Transitional package for nvidia-driver-440
+ This is a transitional package for nvidia-driver-440, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-driver-440
+Description-md5: e18331a2f439a2134ea149ec7de1a5e4
+Description-en: NVIDIA driver metapackage
+ This metapackage depends on the NVIDIA binary driver and on all of its libraries,
+ to provide hardware acceleration for OpenGL/GLX/EGL/GLES/Vulkan
+ applications on either X11 or on Wayland.
+ .
+ See /usr/share/doc/nvidia-driver-440/README.txt.gz
+ for a complete list of supported GPUs and PCI IDs.
+
+Package: nvidia-headless-390
+Description-md5: 86d5105d59972487393b3dbe5c901379
+Description-en: NVIDIA headless metapackage
+ This metapackage installs the NVIDIA driver and the libraries that enable
+ parallel general purpose computation through CUDA and
+ OpenCL.
+ .
+ Install this package if you do not need X11 or Wayland support, which is
+ provided by the nvidia-driver-390 metapackage.
+
+Package: nvidia-headless-430
+Description-md5: e8413c4a8a2e74f4f373315742e28741
+Description-en: Transitional package for nvidia-headless-440
+ This is a transitional package for nvidia-headless-440, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-headless-440
+Description-md5: f80bba4867c99e792b2a01edc41d60ed
+Description-en: NVIDIA headless metapackage
+ This metapackage installs the NVIDIA driver and the libraries that enable
+ parallel general purpose computation through CUDA and
+ OpenCL.
+ .
+ Install this package if you do not need X11 or Wayland support, which is
+ provided by the nvidia-driver-440 metapackage.
+
+Package: nvidia-headless-no-dkms-390
+Description-md5: 8a64bdacdf6cbf15c61b167bc3577159
+Description-en: NVIDIA headless metapackage - no DKMS
+ This metapackage installs the NVIDIA driver and the libraries that enable
+ parallel general purpose computation through CUDA and
+ OpenCL. DKMS will not be installed, and, therefore, the kernel module
+ will not be built.
+ .
+ Install this package if you do not need X11 or Wayland support, which is
+ provided by the nvidia-driver-390 metapackage.
+
+Package: nvidia-headless-no-dkms-430
+Description-md5: 76b7afff883ef840d34aa6edcf742001
+Description-en: Transitional package for nvidia-headless-no-dkms-440
+ This is a transitional package for nvidia-headless-no-dkms-440, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-headless-no-dkms-440
+Description-md5: c6836f5128f57eff4cfc3ac217148353
+Description-en: NVIDIA headless metapackage - no DKMS
+ This metapackage installs the NVIDIA driver and the libraries that enable
+ parallel general purpose computation through CUDA and
+ OpenCL. DKMS will not be installed, and, therefore, the kernel module
+ will not be built.
+ .
+ Install this package if you do not need X11 or Wayland support, which is
+ provided by the nvidia-driver-440 metapackage.
+
+Package: nvidia-kernel-common-390
+Description-md5: caa64a2a10d329a0475baf9ebcdb40d5
+Description-en: Shared files used with the kernel module
+ This package installs all the optional accessory files for the NVIDIA
+ kernel module.
+ .
+ Install this package if you want to blacklist any conflicting kernel
+ modules, and if you want udev to load the the NVIDIA kernel modules,
+ and to create the uvm devices automatically.
+
+Package: nvidia-kernel-common-430
+Description-md5: a466aa9933e07508d18fb4b4c51f78e8
+Description-en: Transitional package for nvidia-kernel-common-440
+ This is a transitional package for nvidia-kernel-common-440, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-kernel-common-440
+Description-md5: caa64a2a10d329a0475baf9ebcdb40d5
+Description-en: Shared files used with the kernel module
+ This package installs all the optional accessory files for the NVIDIA
+ kernel module.
+ .
+ Install this package if you want to blacklist any conflicting kernel
+ modules, and if you want udev to load the the NVIDIA kernel modules,
+ and to create the uvm devices automatically.
+
+Package: nvidia-kernel-source-390
+Description-md5: dc60d6861ca351f7cadc7d8fcc74e854
+Description-en: NVIDIA kernel source package
+ This package provides the NVIDIA kernel source needed by the userspace
+ driver.
+
+Package: nvidia-kernel-source-430
+Description-md5: 3bbb65ec55a945136cd8bffb0f6668a6
+Description-en: Transitional package for nvidia-kernel-source-440
+ This is a transitional package for nvidia-kernel-source-440, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-kernel-source-440
+Description-md5: dc60d6861ca351f7cadc7d8fcc74e854
+Description-en: NVIDIA kernel source package
+ This package provides the NVIDIA kernel source needed by the userspace
+ driver.
+
+Package: nvidia-libopencl1-384
+Description-md5: c6dbe40660b5059827bb841b3e8d47a1
+Description-en: Transitional package for nvidia-headless-390
+ This is a transitional package for nvidia-headless-390, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-opencl-icd-384
+Description-md5: c6dbe40660b5059827bb841b3e8d47a1
+Description-en: Transitional package for nvidia-headless-390
+ This is a transitional package for nvidia-headless-390, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-utils-390
+Description-md5: d81f3aa17f8585f803913263abcf99e2
+Description-en: NVIDIA driver support binaries
+ This package contains supporting binaries for the NVIDIA driver.
+
+Package: nvidia-utils-430
+Description-md5: acd0449144ee1a6ab3e947098ebd8866
+Description-en: Transitional package for nvidia-utils-440
+ This is a transitional package for nvidia-utils-440, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-utils-440
+Description-md5: d81f3aa17f8585f803913263abcf99e2
+Description-en: NVIDIA driver support binaries
+ This package contains supporting binaries for the NVIDIA driver.
+
+Package: xserver-xorg-video-nvidia-390
+Description-md5: 0e48d46882de977abded40ac6bbb282b
+Description-en: NVIDIA binary Xorg driver
+ The NVIDIA binary driver provides optimized hardware acceleration of
+ OpenGL/GLX/EGL/GLES applications via a direct-rendering X Server
+ for graphics cards using NVIDIA chip sets.
+ .
+ See /usr/share/doc/nvidia-driver-390/README.txt.gz
+ for a complete list of supported GPUs and PCI IDs.
+
+Package: xserver-xorg-video-nvidia-430
+Description-md5: eda589e351803c5169ea931e95261ed5
+Description-en: Transitional package for xserver-xorg-video-nvidia-440
+ This is a transitional package for xserver-xorg-video-nvidia-440, and can be
+ safely removed after the installation is complete.
+
+Package: xserver-xorg-video-nvidia-440
+Description-md5: c1b554737af685416b3c18758101778b
+Description-en: NVIDIA binary Xorg driver
+ The NVIDIA binary driver provides optimized hardware acceleration of
+ OpenGL/GLX/EGL/GLES applications via a direct-rendering X Server
+ for graphics cards using NVIDIA chip sets.
+ .
+ See /usr/share/doc/nvidia-driver-440/README.txt.gz
+ for a complete list of supported GPUs and PCI IDs.
+

@@ -458,3 +458,58 @@ Start-Date: 2020-04-23  07:45:04
 Commandline: apt-get install --reinstall zlib1g:armhf
 Reinstall: zlib1g:armhf (1:1.2.11.dfsg-2ubuntu1)
 End-Date: 2020-04-23  07:45:06
+
+Start-Date: 2020-07-06  15:27:14
+Commandline: /usr/bin/apt install sudo
+Install: sudo:armhf (1.8.31-1ubuntu1)
+End-Date: 2020-07-06  15:27:15
+
+Start-Date: 2020-07-06  15:28:12
+Commandline: /usr/bin/apt install language-pack-en-base
+Install: locales:armhf (2.31-0ubuntu9, automatic), language-pack-en:armhf (1:20.04+20200416, automatic), language-pack-en-base:armhf (1:20.04+20200416)
+End-Date: 2020-07-06  15:31:00
+
+Start-Date: 2020-07-06  15:32:29
+Commandline: /usr/bin/apt upgrade
+Upgrade: libseccomp2:armhf (2.4.3-1ubuntu1, 2.4.3-1ubuntu3.20.04.2), libsystemd0:armhf (245.4-4ubuntu3, 245.4-4ubuntu3.1), apt:armhf (2.0.2, 2.0.2ubuntu0.1), passwd:armhf (1:4.8.1-1ubuntu5, 1:4.8.1-1ubuntu5.20.04), libapt-pkg6.0:armhf (2.0.2, 2.0.2ubuntu0.1), libudev1:armhf (245.4-4ubuntu3, 245.4-4ubuntu3.1), login:armhf (1:4.8.1-1ubuntu5, 1:4.8.1-1ubuntu5.20.04), libgnutls30:armhf (3.6.13-2ubuntu1, 3.6.13-2ubuntu1.2)
+End-Date: 2020-07-06  15:32:39
+
+Start-Date: 2020-07-06  15:34:17
+Commandline: /usr/bin/apt install ssh
+Install: libxdmcp6:armhf (1:1.1.3-0ubuntu1, automatic), libdevmapper1.02.1:armhf (2:1.02.167-1ubuntu1, automatic), dmsetup:armhf (2:1.02.167-1ubuntu1, automatic), libkrb5-3:armhf (1.17-6ubuntu4, automatic), libgssapi-krb5-2:armhf (1.17-6ubuntu4, automatic), libdbus-1-3:armhf (1.12.16-2ubuntu2.1, automatic), networkd-dispatcher:armhf (2.0.1-1, automatic), publicsuffix:armhf (20200303.0012-1, automatic), openssl:armhf (1.1.1f-1ubuntu2, automatic), libgirepository-1.0-1:armhf (1.64.1-1~ubuntu20.04.1, automatic), libargon2-1:armhf (0~20171227-0.2, automatic), libpython3.8-minimal:armhf (3.8.2-1ubuntu1.1, automatic), python3-distro:armhf (1.4.0-1, automatic), xdg-user-dirs:armhf (0.17-2ubuntu1, automatic), dbus:armhf (1.12.16-2ubuntu2.1, automatic), libkmod2:armhf (27-1ubuntu2, automatic), libpsl5:armhf (0.21.0-1ubuntu1, automatic), libsqlite3-0:armhf (3.31.1-4ubuntu0.1, automatic), libicu66:armhf (66.1-2ubuntu2, automatic), python3-urllib3:armhf (1.25.8-2, automatic), libbsd0:armhf (0.10.0-1, automatic), libwrap0:armhf (7.6.q-30, automatic), python3.8:armhf (3.8.2-1ubuntu1.1, automatic), openssh-sftp-server:armhf (1:8.2p1-4ubuntu0.1, automatic), python3:armhf (3.8.2-0ubuntu2, automatic), libk5crypto3:armhf (1.17-6ubuntu4, automatic), python3-idna:armhf (2.8-1, automatic), mime-support:armhf (3.64ubuntu1, automatic), python3-six:armhf (1.14.0-2, automatic), readline-common:armhf (8.0-4, automatic), libmagic1:armhf (1:5.38-4, automatic), libmpdec2:armhf (2.4.2-3, automatic), libx11-6:armhf (2:1.6.9-2ubuntu1, automatic), python3-requests:armhf (2.22.0-2ubuntu1, automatic), libexpat1:armhf (2.2.9-1build1, automatic), libfido2-1:armhf (1.3.1-1ubuntu2, automatic), libapparmor1:armhf (2.13.3-7ubuntu5.1, automatic), krb5-locales:armhf (1.17-6ubuntu4, automatic), systemd-timesyncd:armhf (245.4-4ubuntu3.1, automatic), python3-minimal:armhf (3.8.2-0ubuntu2, automatic), libxau6:armhf (1:1.0.9-0ubuntu1, automatic), libmagic-mgc:armhf (1:5.38-4, automatic), gir1.2-glib-2.0:armhf (1.64.1-1~ubuntu20.04.1, automatic), libxcb1:armhf (1.14-2, automatic), libkrb5support0:armhf (1.17-6ubuntu4, automatic), libcap2:armhf (1:2.32-1, automatic), libpython3-stdlib:armhf (3.8.2-0ubuntu2, automatic), ssh:armhf (1:8.2p1-4ubuntu0.1), python3.8-minimal:armhf (3.8.2-1ubuntu1.1, automatic), systemd-sysv:armhf (245.4-4ubuntu3.1, automatic), ucf:armhf (3.0038+nmu1, automatic), libkeyutils1:armhf (1.6-6ubuntu1, automatic), libxmuu1:armhf (2:1.1.3-0ubuntu1, automatic), libpam-systemd:armhf (245.4-4ubuntu3.1, automatic), distro-info-data:armhf (0.43ubuntu1.1, automatic), xz-utils:armhf (5.2.4-1, automatic), ncurses-term:armhf (6.2-0ubuntu2, automatic), python3-pkg-resources:armhf (45.2.0-1, automatic), shared-mime-info:armhf (1.15-1, automatic), systemd:armhf (245.4-4ubuntu3.1, automatic), openssh-server:armhf (1:8.2p1-4ubuntu0.1, automatic), libx11-data:armhf (2:1.6.9-2ubuntu1, automatic), libreadline8:armhf (8.0-4, automatic), openssh-client:armhf (1:8.2p1-4ubuntu0.1, automatic), libnss-systemd:armhf (245.4-4ubuntu3.1, automatic), python3-dbus:armhf (1.2.16-1build1, automatic), libglib2.0-data:armhf (2.64.2-1~fakesync1, automatic), lsb-release:armhf (11.1.0ubuntu2, automatic), libxml2:armhf (2.9.10+dfsg-5, automatic), file:armhf (1:5.38-4, automatic), python3-gi:armhf (3.36.0-1, automatic), libpython3.8-stdlib:armhf (3.8.2-1ubuntu1.1, automatic), libedit2:armhf (3.1-20191231-1, automatic), ca-certificates:armhf (20190110ubuntu1.1, automatic), xauth:armhf (1:1.1-0ubuntu1, automatic), ssh-import-id:armhf (5.10-0ubuntu1, automatic), wget:armhf (1.20.3-1ubuntu1, automatic), libcryptsetup12:armhf (2:2.2.2-3ubuntu2, automatic), libssl1.1:armhf (1.1.1f-1ubuntu2, automatic), libjson-c4:armhf (0.13.1+dfsg-7ubuntu0.3, automatic), libip4tc2:armhf (1.8.4-3ubuntu2, automatic), python3-certifi:armhf (2019.11.28-1, automatic), python3-chardet:armhf (3.0.4-4build1, automatic), libcbor0.6:armhf (0.6.0-0ubuntu1, automatic), libglib2.0-0:armhf (2.64.2-1~fakesync1, automatic), libxext6:armhf (2:1.3.4-0ubuntu1, automatic), tzdata:armhf (2020a-0ubuntu0.20.04, automatic)
+End-Date: 2020-07-06  15:37:10
+
+Start-Date: 2020-07-06  23:37:39
+Commandline: /usr/bin/apt install net-tools
+Install: net-tools:armhf (1.60+git20180626.aebd88e-1ubuntu1)
+End-Date: 2020-07-06  23:37:39
+
+Start-Date: 2020-07-06  23:39:56
+Commandline: /usr/bin/apt install ethtool
+Install: ethtool:armhf (1:5.4-1)
+End-Date: 2020-07-06  23:39:56
+
+Start-Date: 2020-07-06  23:40:54
+Commandline: /usr/bin/apt install ifupdown
+Install: ifupdown:armhf (0.8.35ubuntu1), libpam-cap:armhf (1:2.32-1, automatic), libelf1:armhf (0.176-1.1build1, automatic), isc-dhcp-common:armhf (4.4.1-2.1ubuntu5, automatic), libisc-export1105:armhf (1:9.11.16+dfsg-3~build1, automatic), libatm1:armhf (1:2.5.1-4, automatic), libcap2-bin:armhf (1:2.32-1, automatic), iproute2:armhf (5.5.0-1ubuntu1, automatic), libdns-export1109:armhf (1:9.11.16+dfsg-3~build1, automatic), libxtables12:armhf (1.8.4-3ubuntu2, automatic), isc-dhcp-client:armhf (4.4.1-2.1ubuntu5, automatic), libmnl0:armhf (1.0.4-2, automatic)
+End-Date: 2020-07-06  23:41:04
+
+Start-Date: 2020-07-06  23:41:16
+Commandline: /usr/bin/apt install iputils-ping
+Install: iputils-ping:armhf (3:20190709-3)
+End-Date: 2020-07-06  23:41:16
+
+Start-Date: 2020-07-06  23:41:48
+Commandline: /usr/bin/apt install rsyslog
+Install: libpopt0:armhf (1.16-14, automatic), libfastjson4:armhf (0.99.8-2, automatic), rsyslog:armhf (8.2001.0-1ubuntu1), libestr0:armhf (0.1.10-2.1, automatic), logrotate:armhf (3.14.0-4ubuntu3, automatic)
+End-Date: 2020-07-06  23:41:59
+
+Start-Date: 2020-07-06  23:42:08
+Commandline: /usr/bin/apt install htop
+Install: htop:armhf (2.2.0-2build1)
+End-Date: 2020-07-06  23:42:09
+
+Start-Date: 2020-07-06  23:42:26
+Commandline: /usr/bin/apt install vim
+Install: alsa-topology-conf:armhf (1.2.2-1, automatic), sound-theme-freedesktop:armhf (0.8-2ubuntu1, automatic), vim-common:armhf (2:8.1.2269-1ubuntu5, automatic), alsa-ucm-conf:armhf (1.2.2-1ubuntu0.1, automatic), libasound2-data:armhf (1.2.2-2.1ubuntu1, automatic), libogg0:armhf (1.3.4-0ubuntu1, automatic), libpython3.8:armhf (3.8.2-1ubuntu1.1, automatic), libvorbisfile3:armhf (1.3.6-2ubuntu1, automatic), libltdl7:armhf (2.4.6-14, automatic), vim-runtime:armhf (2:8.1.2269-1ubuntu5, automatic), vim:armhf (2:8.1.2269-1ubuntu5), xxd:armhf (2:8.1.2269-1ubuntu5, automatic), libtdb1:armhf (1.4.2-3build1, automatic), libasound2:armhf (1.2.2-2.1ubuntu1, automatic), libgpm2:armhf (1.20.7-5, automatic), libvorbis0a:armhf (1.3.6-2ubuntu1, automatic), libcanberra0:armhf (0.30-7ubuntu1, automatic)
+End-Date: 2020-07-06  23:42:35
